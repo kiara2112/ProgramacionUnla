@@ -1,4 +1,4 @@
-//Se cargan por teclado tres n�meros distintos. Mostrar por pantalla el mayor de ellos.
+//Se cargan por teclado tres números distintos. Mostrar por pantalla el mayor de ellos.
 
 #include<stdio.h>
 #include<conio.h>
@@ -15,10 +15,15 @@ int main ()
 
     if (num1>num2) //primero pregunto si el num1 es el mayor
     {
-        if (num1>num3) //si es el mayor,
+        if (num1>num3) //¿num1 es mayor que num2?
         {
             printf("el numero mayor es ");
             printf("%i", num1);
+        }
+        else
+        {
+            printf("el numero mayor es "); //
+            printf("%i", num3);
         }
     }
     else
@@ -30,7 +35,7 @@ int main ()
         }
         else
         {
-            printf("el numero mayor es ");
+            printf("el numero mayor es ");// tiene que preguntar 2 veces si num3 es mayor porque en una posibilidad no muestra
             printf("%i", num3);
         }
 
@@ -40,4 +45,11 @@ int main ()
     return 0;
 
 }
+//             num1 > num2?
+//             /          \
+//          SÍ            NO
+//          ↓              ↓
+//      num1 > num3?    num2 > num3?
+//       /      \         /      \
+//     num1     num3    num2     num3
 
