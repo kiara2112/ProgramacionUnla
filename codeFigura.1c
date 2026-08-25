@@ -1,0 +1,25 @@
+//FIGURA 2
+
+#include<stdio.h>
+
+int main()
+{
+int f, n, j;
+
+printf("filas de x: ");
+scanf("%i", &n);
+
+for (f=1; f<=n; f++)
+{
+for (j=1; j<=f; j++)
+{
+printf("x");
+
+}
+printf("\n");
+
+}
+getchar();
+return 0;
+
+}
