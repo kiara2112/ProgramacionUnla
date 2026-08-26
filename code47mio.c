@@ -8,7 +8,7 @@
 int main()
 {
 
-    int isoceles, equilatero, escaleno, lado1, lado2, lado3, n;
+    int isoceles, equilatero, escaleno, lado1, lado2, lado3, n, f;
 
     printf("ingresa cantidad de triangulos: ");
     scanf("%i", &n);
@@ -17,45 +17,59 @@ int main()
     escaleno=0;
 
     for (f=1; f<=n; f++)
-{
+    {
         printf("ingresar PRIMER lado: ");
-        printf("%i", &lado1);
+        scanf("%i", &lado1);
         printf("ingresar SEGUNDO lado: ");
-        printf("%i", &lado2);
+        scanf("%i", &lado2);
         printf("ingresar TERCERO lado: ");
-        printf("%i", &lado3);
+        scanf("%i", &lado3);
 
         if (lado1==lado2 && lado2==lado3)
-{
+        {
             printf("el triangulo es EQUILATERO");
             equilatero=equilatero+1;
-}
+        }
         else
-{
+        {
             if (lado1==lado2 || lado2==lado3 || lado3==lado1)
-{
+            {
                 printf("el triangulo es ISOCELES");
                 isoceles=isoceles+1;
-}
+            }
             else
-{
+            {
                 printf("el triangulo es ESCALENO");
                 escaleno=escaleno+1;
-}
+            }
 
-}
-}
+        }
 
-if (equ)
+        printf("\n");
+    }
 
-
-
-
-
+    if (equilatero<isoceles && equilatero<escaleno)
+    {
+    printf("EQUILATERO tiene menor cantidad");
+    }
+    else
+    {
+        if (isoceles>escaleno)
+        {
+            printf("ESCALENO tiene menor cantidad");
+        }
+        else
+        {
+            printf("ISOCELES tiene menor cantidad");
+        }
+    }
+printf("\n");
 printf("EQUILATEROS: ");
-printf("%i", equilateros);
+printf("%i", equilatero);
+printf("\n");
 printf("ISOCELES: ");
 printf("%i", isoceles);
+printf("\n");
 printf("ESCALENO: ");
 printf("%i", escaleno);
 
