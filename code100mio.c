@@ -1,6 +1,6 @@
-//Confeccionar una función que calcule la superficie de un rectángulo y la retorne, la función recibe como parámetros los valores de dos de sus lados:
+//Confeccionar una funciÃ³n que calcule la superficie de un rectÃ¡ngulo y la retorne, la funciÃ³n recibe como parÃ¡metros los valores de dos de sus lados:
 //int retornarSuperficie(int lado1,int lado2)
-//En la función main del programa cargar los lados de dos rectángulos y luego mostrar cual de los dos tiene una superficie mayor.
+//En la funciÃ³n main del programa cargar los lados de dos rectÃ¡ngulos y luego mostrar cual de los dos tiene una superficie mayor.
 
 #include<stdio.h>
 #include<conio.h>
@@ -27,15 +27,22 @@ int main()
     super1=retornarSuperficie(lado1,lado2);
     super2=retornarSuperficie(lado3,lado4);
 
-    if (super1>super2)
+    if (super1==super2)
     {
-        printf ("el PRIMER rectangulo tiene mas superficie con %i", super1);
+       printf("Ambos rectangulos son iguales");
     }
     else
     {
-        printf ("el SEGUNDO rectangulo tiene mas superficie con %i", super2);
-    }
+        if (super1==super2)
+        {
+             printf ("El PRIMER rectangulo tiene mas superficie con %i", super1);
+        }
+        else
+        {
+             printf ("El SEGUNDO rectangulo tiene mas superficie con %i", super2);
+        }
 
+    }
     getchar();
     return 0;
 
