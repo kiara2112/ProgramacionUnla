@@ -1,4 +1,7 @@
-//Elaborar una función que reciba tres enteros y nos retorne el valor promedio de los mismos
+//Elaborar una funciÃ³n que reciba tres enteros y nos retorne el valor promedio de los mismos
+
+#include<stdio.h>
+#include<conio.h>
 
 float retornaPromedio(int part1, int part2, int part3)
 {
