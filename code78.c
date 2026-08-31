@@ -1,0 +1,32 @@
+//Ingresar dos nombres por teclado. Mostrar un mensaje si son iguales y sino mostrar el que es mayor alfabéticamente.
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+
+int main()
+{
+    char nombre1[31];
+    char nombre2[31];
+    printf("Ingrese primer nombre:");
+    gets(nombre1);
+    printf("Ingrese segundo nombre:");
+    gets(nombre2);
+    if (strcmp(nombre1,nombre2)==0) //compara si alfabeticamente tienen el mismo valor de caracteres de la tabla, no compara cuantos caracteres tiene, si no su valor de cual esta primero en la tabla
+    {
+        printf("Los dos nombres son iguales");
+    }
+    else
+    {
+        if (strcmp(nombre1,nombre2)>0)
+        {
+            printf("%s es mayor alfabeticamente",nombre1);
+        }
+        else
+        {
+            printf("%s es mayor alfabeticamente",nombre2);
+        }
+    }
+    getch();
+    return 0;
+}
