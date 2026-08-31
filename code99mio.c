@@ -1,4 +1,7 @@
-//Elaborar una funciÛn que nos retorne el perÌmetro de un cuadrado pasando como par·metros el valor de un lado.
+//Elaborar una funci√≥n que nos retorne el per√≠metro de un cuadrado pasando como par√°metros el valor de un lado.
+
+#include<stdio.h>
+#include<conio.h>
 
 int returnPerimetro(lado)
 {
