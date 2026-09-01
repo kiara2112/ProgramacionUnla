@@ -39,15 +39,23 @@ int main()
     printf("%f",promedioB);
     printf("\n");
 
-    if (promedioA>promedioB) //ve cual es el que tiene mas promedio
+    if (promedioA==promedioB) //ve cual es el que tiene mas promedio
     {
-        printf("el curso A obtuvo mas promedio: ");
+        printf("Los cursos obtuvieron el mismo promedio: ");
         printf("%f",promedioA);
     }
     else
     {
+        if (promedioA>promedioB)
+        {
+        printf("el curso A obtuvo mas promedio: ");
+        printf("%f",promedioA);
+        }
+        else
+        {
         printf("el curso B obtuvo mas promedio: ");
         printf("%i",promedioB);
+        }
     }
 
     getch();
