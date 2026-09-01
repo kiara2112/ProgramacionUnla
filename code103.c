@@ -1,6 +1,6 @@
-//Definir tres vectores de tipo entero. Realizar la carga de los dos primeros por teclado. Definir una única función que realice la carga de un vector y
-//llamar a dicha función dos veces pasando el primer y segundo vector definido.
-//Plantear otra función que reciba tres vectores y proceda a sumar elemento a elementos los dos primeros vectores y se carguen en el tercer vector.
+//Definir tres vectores de tipo entero. Realizar la carga de los dos primeros por teclado. Definir una Ãºnica funciÃ³n que realice la carga de un vector y
+//llamar a dicha funciÃ³n dos veces pasando el primer y segundo vector definido.
+//Plantear otra funciÃ³n que reciba tres vectores y proceda a sumar elemento a elementos los dos primeros vectores y se carguen en el tercer vector.
 //Imprimir los tres vectores.
 
 
@@ -18,7 +18,7 @@ void cargar(int vec[5])
     }
 }
 
-void generarVector(int vec1[5],int vec2[5],int vecsuma[5])
+void generarVector(int vec1[5],int vec2[5],int vecsuma[5]) //sumamos ambos vectores
 {
     int x;
     for(x=0;x<5;x++)
@@ -27,7 +27,7 @@ void generarVector(int vec1[5],int vec2[5],int vecsuma[5])
     }
 }
 
-void imprimir(int vec[5])
+void imprimir(int vec[5]) //imprimimos
 {
     int x;
     printf("Impresion del vector:");
@@ -44,11 +44,11 @@ int main()
     int vector1[5];
     int vector2[5];
     int vecsuma[5];
-    cargar(vector1);
+    cargar(vector1); //una solo funcion cargar sirve para cualquier valor que se necesite
     cargar(vector2);
-    generarVector(vector1,vector2,vecsuma);
+    generarVector(vector1,vector2,vecsuma); //vecsuma es el que se modifica
     imprimir(vector1);
-    imprimir(vector2);
+    imprimir(vector2); //se muestra ambos resultados
     imprimir(vecsuma);
     getch();
     return 0;
