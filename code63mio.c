@@ -14,7 +14,7 @@ int main()
         scanf("%i", &vector[f]);
     }
 
-    for(f=0; f<9; f++)
+    for(f=0; f<9; f++)//aca debe de ir con uno menos  hasta f<9, de lo que ocupa el vector, porque si no se sobresale y nos da mal
     {
         if (vector[f+1]<vector[f])//ve la posicion que se encuentra f y la proxima, y las compara si la primera ingresada es mayor a la segundo (el +1 no es la cantidad, si no la posicion de f, la proxima)
         {
