@@ -7,7 +7,7 @@ int main()
 {
     int x,suma,valor,promedio;
     x=1;
-    suma=0; //señalizamos con 0 porque si no habria error
+    suma=0; //seÃ±alizamos con 0 porque si no habria error
     while ( x <= 10) //ingresar los 10 numeros (aunque un for seria mejor, pero bueno)
     {
         printf("Ingrese un valor:");
