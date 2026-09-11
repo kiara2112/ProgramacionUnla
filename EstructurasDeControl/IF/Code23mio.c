@@ -1,5 +1,5 @@
-//Se ingresan por teclado tres números, si al menos uno de los valores ingresados es menor a 10,
-//imprimir en pantalla la leyenda "Alguno de los números es menor a diez".
+//Se ingresan por teclado tres nÃºmeros, si al menos uno de los valores ingresados es menor a 10,
+//imprimir en pantalla la leyenda "Alguno de los nÃºmeros es menor a diez".
 
 #include<stdio.h>
 #include<conio.h>
