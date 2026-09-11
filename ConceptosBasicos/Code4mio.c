@@ -1,5 +1,5 @@
-//Realizar la carga del lado de un cuadrado, mostrar por pantalla el perímetro del mismo
-//(El perímetro de un cuadrado se calcula multiplicando el valor del lado por cuatro)
+//Realizar la carga del lado de un cuadrado, mostrar por pantalla el perÃ­metro del mismo
+//(El perÃ­metro de un cuadrado se calcula multiplicando el valor del lado por cuatro)
 
 #include<stdio.h>
 #include<conio.h>
