@@ -1,4 +1,4 @@
-//Mostrar todos los múltiplos de 8 que hay hasta el valor 500.
+//Mostrar todos los mÃºltiplos de 8 que hay hasta el valor 500.
 //Debe aparecer en pantalla 8 - 16 - 24, etc.
 
 #include<stdio.h>
