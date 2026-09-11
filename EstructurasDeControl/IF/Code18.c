@@ -1,4 +1,4 @@
-//Confeccionar un programa que lea por teclado tres números distintos y nos muestre el mayor.
+//Confeccionar un programa que lea por teclado tres nÃºmeros distintos y nos muestre el mayor.
 #include<stdio.h>
 #include<conio.h>
 
