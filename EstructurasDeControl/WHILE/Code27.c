@@ -1,4 +1,4 @@
-// imprimir los números del 1 al 100 en pantalla
+// imprimir los nÃºmeros del 1 al 100 en pantalla
 
 #include<stdio.h>
 #include<conio.h>
@@ -6,7 +6,7 @@
 int main()
 {
     int x;
-    x = 1; //señalizamos el x en 1 para que empiece en ese numero
+    x = 1; //seÃ±alizamos el x en 1 para que empiece en ese numero
     while (x <= 100) //mientras sea menor a 100, va a ejecutar
     {
         printf("%i",x);
