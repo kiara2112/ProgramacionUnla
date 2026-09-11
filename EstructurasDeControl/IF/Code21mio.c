@@ -21,7 +21,7 @@ int main()
 
         printf("la suma de los numeros 1 y 2 es: ");
         printf("%i", suma); //para mostrar el numero debemos de usar antes "%i"
-        printf("\n"); //usamos esto para saltar un renglon (ALT 92, porque mi teclado no deja con ALT GR °)
+        printf("\n"); //usamos esto para saltar un renglon (ALT 92, porque mi teclado no deja con ALT GR Â°)
         printf("el producto de la suma con el 3 es: ");
         printf("%i", producto);
     }
