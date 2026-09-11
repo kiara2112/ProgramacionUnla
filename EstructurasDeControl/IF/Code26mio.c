@@ -1,5 +1,5 @@
-//Escribir un programa en el cual: dada una lista de tres valores numéricos distintos
-//se calcule e informe su rango de variación (debe mostrar el mayor y el menor de ellos)
+//Escribir un programa en el cual: dada una lista de tres valores numÃ©ricos distintos
+//se calcule e informe su rango de variaciÃ³n (debe mostrar el mayor y el menor de ellos)
 
 #include<stdio.h>
 #include<conio.h>
