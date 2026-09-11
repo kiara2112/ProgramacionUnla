@@ -1,5 +1,5 @@
 //Escribir un programa que pida ingresar la coordenada de un punto en el plano, es decir dos valores enteros x e y (distintos a cero).
-//Posteriormente imprimir en pantalla en que cuadrante se ubica dicho punto. (1บ Cuadrante si x > 0 Y y > 0 , 2บ Cuadrante: x < 0 Y y > 0, etc.)
+//Posteriormente imprimir en pantalla en que cuadrante se ubica dicho punto. (1ยบ Cuadrante si x > 0 Y y > 0 , 2ยบ Cuadrante: x < 0 Y y > 0, etc.)
 
 #include<stdio.h>
 #include<conio.h>
