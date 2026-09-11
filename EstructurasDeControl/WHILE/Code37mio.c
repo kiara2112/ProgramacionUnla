@@ -1,5 +1,5 @@
-//Desarrollar un programa que permita cargar n n˙meros enteros y luego nos informe cu·ntos valores fueron pares y cu·ntos impares.
-//Emplear el operador ì%î en la condiciÛn de la estructura condicional (este operador retorna el resto de la divisiÛn de dos valores, por ejemplo 11%2 retorna un 1):
+//Desarrollar un programa que permita cargar n n√∫meros enteros y luego nos informe cu√°ntos valores fueron pares y cu√°ntos impares.
+//Emplear el operador ‚Äú%‚Äù en la condici√≥n de la estructura condicional (este operador retorna el resto de la divisi√≥n de dos valores, por ejemplo 11%2 retorna un 1):
 //	if (valor%2==0)         //Si el if da verdadero luego es par.
 
 
