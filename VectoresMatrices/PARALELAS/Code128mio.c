@@ -1,5 +1,5 @@
-//Cargar en una matriz los nombres de 5 países y en un vector paralelo la cantidad de habitantes del mismo.
-//Ordenar alfabéticamente e imprimir los resultados. Por último ordenar con respecto a la cantidad de habitantes (de mayor a menor) e imprimir nuevamente.
+//Cargar en una matriz los nombres de 5 paÃ­ses y en un vector paralelo la cantidad de habitantes del mismo.
+//Ordenar alfabÃ©ticamente e imprimir los resultados. Por Ãºltimo ordenar con respecto a la cantidad de habitantes (de mayor a menor) e imprimir nuevamente.
 
 #include<stdio.h>
 #include<conio.h>
@@ -23,7 +23,7 @@ void ordenPais(char paises[5][41], int habitantes[5])
     int f, k;
     char auxPaises[41]; //cuando ingresa solo una palabra, debemos de poner solo una cantidad que va a entrar la palabra, sin renglones
     int auxHabit;
-    for (k=0; k<4; k++) //con 5 elementos, en un ordenamiento burbuja normalmente hacés como máximo 5 - 1 = 4 pasadas.
+    for (k=0; k<4; k++) //con 5 elementos, en un ordenamiento burbuja normalmente hacÃ©s como mÃ¡ximo 5 - 1 = 4 pasadas.
     {
         for(f=0; f<4-k; f++)
         {
