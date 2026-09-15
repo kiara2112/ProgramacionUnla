@@ -1,9 +1,9 @@
-//Se tiene la siguiente declaración de registro:
+//Se tiene la siguiente declaraciÃ³n de registro:
 //Definir un vector de cuatro elementos de tipo libro.
 //Codificar las funciones:
 //1-Carga del vector.
 //2-Listado completo.
-//3-Ingresar por teclado un nombre de autor y luego mostrar todos los títulos de libros que ha escrito o un mensaje si no tiene.
+//3-Ingresar por teclado un nombre de autor y luego mostrar todos los tÃ­tulos de libros que ha escrito o un mensaje si no tiene.
 
 #include<stdio.h>
 #include<conio.h>
