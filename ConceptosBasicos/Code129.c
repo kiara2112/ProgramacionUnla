@@ -1,8 +1,8 @@
 //Se desea guardar los sueldos de 5 operarios.
-//Desarrollar dos funciones una donde se los ingrese por teclado y otra funciÛn donde se los imprima.
-//Definir una macro para indicar el tamaÒo del vector.
+//Desarrollar dos funciones una donde se los ingrese por teclado y otra funci√≥n donde se los imprima.
+//Definir una macro para indicar el tama√±o del vector.
 
-// nombre que ser· reemplazado por un cierto valor en todos los lugares del programa donde se haga referencia a dicho nombre.
+// nombre que ser√° reemplazado por un cierto valor en todos los lugares del programa donde se haga referencia a dicho nombre.
 //no usar muchas macros
 
 
