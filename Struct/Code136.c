@@ -1,7 +1,7 @@
-//Se tiene la siguiente declaración de registro:
-//Definir tres variables de tipo punto y cargarlas llamando a una función que retorne valores de tipo punto.
-//Finalmente crear otra función que imprima en que cuadrante se encuentra cada punto (tener en cuenta que si x>0 e y>0
-//se encuentra en el primer cuadrante, si x<0 e y>0 se encuentra en el segundo cuadrante y así sucesivamente)
+//Se tiene la siguiente declaraciÃ³n de registro:
+//Definir tres variables de tipo punto y cargarlas llamando a una funciÃ³n que retorne valores de tipo punto.
+//Finalmente crear otra funciÃ³n que imprima en que cuadrante se encuentra cada punto (tener en cuenta que si x>0 e y>0
+//se encuentra en el primer cuadrante, si x<0 e y>0 se encuentra en el segundo cuadrante y asÃ­ sucesivamente)
 
 
 struct punto {
