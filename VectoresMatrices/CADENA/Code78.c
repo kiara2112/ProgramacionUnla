@@ -1,4 +1,4 @@
-//Ingresar dos nombres por teclado. Mostrar un mensaje si son iguales y sino mostrar el que es mayor alfabéticamente.
+//Ingresar dos nombres por teclado. Mostrar un mensaje si son iguales y sino mostrar el que es mayor alfabÃ©ticamente.
 
 #include<stdio.h>
 #include<conio.h>
