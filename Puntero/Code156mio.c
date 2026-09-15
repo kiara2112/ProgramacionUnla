@@ -1,8 +1,8 @@
-//Implementar la funci髇:
+//Implementar la funci贸n:
 //int largo(char *cadena)
 //Debe retornar el largo de la cadena utilizando la sintaxis de punteros para acceder a sus componentes.
-//Recordar que el caracter '\0' indica el fin de la parte de informaci髇 de la cadena.
-//No podemos utilizar la funci髇 strlen, ya que en realidad estamos pidiendo implementar el algoritmo de dicha funci髇.
+//Recordar que el caracter '\0' indica el fin de la parte de informaci贸n de la cadena.
+//No podemos utilizar la funci贸n strlen, ya que en realidad estamos pidiendo implementar el algoritmo de dicha funci贸n.
 
 #include<stdio.h>
 #include<conio.h>
