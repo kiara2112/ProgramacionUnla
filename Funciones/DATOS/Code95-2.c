@@ -1,5 +1,5 @@
-//Desarrollar una función que reciba como parámetro un caracter. La función debe mostrar un mensaje si es una vocal o no es una vocal.
-//Debe funcionar tanto con mayúsculas y minúsculas.
+//Desarrollar una funciÃ³n que reciba como parÃ¡metro un caracter. La funciÃ³n debe mostrar un mensaje si es una vocal o no es una vocal.
+//Debe funcionar tanto con mayÃºsculas y minÃºsculas.
 //RESULTADO DE LA PAGINA
 #include<stdio.h>
 #include<conio.h>
