@@ -1,4 +1,4 @@
-//Cargar por teclado en dos variables de tipo string el nombre y el apellido de una persona. Definir un tercer string y guardar la concatenaciÛn del nombre y apellido.
+//Cargar por teclado en dos variables de tipo string el nombre y el apellido de una persona. Definir un tercer string y guardar la concatenaci√≥n del nombre y apellido.
 
 #include<stdio.h>
 #include<conio.h>
@@ -9,7 +9,7 @@ int main()
     char nombre[31];
     char apellido[31];
     char nomape[62];
-    //30 caracteres en el nombre y 30 caracteres en el apellido, luego el string que almacenar· los dos datos juntos m·s un espacio en blanco entre el nombre y apellido debe reservar espacio para 62 caracteres
+    //30 caracteres en el nombre y 30 caracteres en el apellido, luego el string que almacenar√° los dos datos juntos m√°s un espacio en blanco entre el nombre y apellido debe reservar espacio para 62 caracteres
     printf("Ingrese el nombre:");
     gets(nombre);
     printf("Ingrese el apellido:");
