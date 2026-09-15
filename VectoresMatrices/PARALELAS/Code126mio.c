@@ -1,7 +1,7 @@
-//En un curso de 4 alumnos se registraron las notas de sus ex·menes y se deben procesar de acuerdo a lo siguiente:
+//En un curso de 4 alumnos se registraron las notas de sus ex√°menes y se deben procesar de acuerdo a lo siguiente:
 //a) Ingresar Nombre y Nota de cada alumno (almacenar los datos en estructuras paralelas)
-//b) Realizar un listado que muestre los nombres, notas y condiciÛn del alumno. En la condiciÛn, colocar "Muy Bueno" si la nota es mayor o igual a 8, "Bueno" si la nota est· entre 4 y 7, y colocar "Insuficiente" si la nota es inferior a 4.
-//c) Imprimir cuantos alumnos tienen la leyenda ìMuy Buenoî.
+//b) Realizar un listado que muestre los nombres, notas y condici√≥n del alumno. En la condici√≥n, colocar "Muy Bueno" si la nota es mayor o igual a 8, "Bueno" si la nota est√° entre 4 y 7, y colocar "Insuficiente" si la nota es inferior a 4.
+//c) Imprimir cuantos alumnos tienen la leyenda ‚ÄúMuy Bueno‚Äù.
 
 #include<stdio.h>
 #include<conio.h>
