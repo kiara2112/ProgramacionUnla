@@ -1,5 +1,5 @@
-//Se tiene la siguiente declaración de registro:
-//Plantear una función que reciba la dirección de un registro y mediante esta modificar los campos de la variable que le pasamos desde la main.
+//Se tiene la siguiente declaraciÃ³n de registro:
+//Plantear una funciÃ³n que reciba la direcciÃ³n de un registro y mediante esta modificar los campos de la variable que le pasamos desde la main.
 //Imprimir el registro definido en la main.
 
 //DE ESTA FORMA NO SUELE UTILIZARSE (*pprod), IR AL 151. Lo demas no cambia, solo la cargaS
