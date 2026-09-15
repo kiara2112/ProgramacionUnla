@@ -1,5 +1,5 @@
-//Escribir un programa que lea 10 números enteros y luego muestre cuántos valores ingresados fueron múltiplos de 3 y cuántos de 5.
-//Debemos tener en cuenta que hay números que son múltiplos de 3 y de 5 a la vez.
+//Escribir un programa que lea 10 nÃºmeros enteros y luego muestre cuÃ¡ntos valores ingresados fueron mÃºltiplos de 3 y cuÃ¡ntos de 5.
+//Debemos tener en cuenta que hay nÃºmeros que son mÃºltiplos de 3 y de 5 a la vez.
 
 #include<stdio.h>
 #include<conio.h>
