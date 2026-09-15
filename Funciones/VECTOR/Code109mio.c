@@ -1,4 +1,4 @@
-//Cargar un vector de 10 elementos y verificar posteriormente si el mismo est· ordenado de menor a mayor. Hacer las dos actividades en funciones distintas.
+//Cargar un vector de 10 elementos y verificar posteriormente si el mismo est√° ordenado de menor a mayor. Hacer las dos actividades en funciones distintas.
 
 #include<stdio.h>
 #include<conio.h>
@@ -19,7 +19,7 @@ void comparar(int vector[10])
     int orden=0;
     for (f=0; f<9; f++)//aca debe de ir con uno menos  hasta f<9, de lo que ocupa el vector, porque si no se sobresale y nos da mal
     {
-        if(vector[f]>vector[f+1])// Si el elemento de la derecha es menor que el de la izquierda, est· desordenado (lo habia puesto al revez)
+        if(vector[f]>vector[f+1])// Si el elemento de la derecha es menor que el de la izquierda, est√° desordenado (lo habia puesto al revez)
         {
             orden=1;
         }
