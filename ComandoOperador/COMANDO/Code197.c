@@ -1,5 +1,5 @@
 //Definir e inicializar una matriz de 3x3 con valores 0. Implementar la carga por teclado de valores enteros,
-//si se carga en algún momento un cero no permitir ingresar más valores.
+//si se carga en algÃºn momento un cero no permitir ingresar mÃ¡s valores.
 
 
 #include<stdio.h>
@@ -21,7 +21,7 @@ void cargar(int mat[FILAS][COLUMNAS])
             scanf("%i",&mat[f][c]);
             if (mat[f][c]==0) //si se carga un 0, no deben ingresar mas valores
             {
-                goto salir; // saltar en forma incondicional a cualquier otra parte de la misma función.
+                goto salir; // saltar en forma incondicional a cualquier otra parte de la misma funciÃ³n.
             }
         }
     }
