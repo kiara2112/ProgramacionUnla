@@ -1,5 +1,5 @@
 //Ingresar por teclado un valor entero comprendido entre 1 y 5. Mostrar en castellano el valor ingresado o
-//un mensaje indicando que se cargó un valor fuera de rango.
+//un mensaje indicando que se cargÃ³ un valor fuera de rango.
 
 
 
