@@ -1,8 +1,8 @@
 //Se tienen las siguientes declaraciones de registros:
 //Definir en la main un registro de tipo triangulo.
 //Codificar las funciones:
-//1-Una función que retorne un registro de tipo triangulo.
-//2-Impresión del registro.
+//1-Una funciÃ³n que retorne un registro de tipo triangulo.
+//2-ImpresiÃ³n del registro.
 
 
 
