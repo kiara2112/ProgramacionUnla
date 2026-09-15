@@ -1,7 +1,7 @@
 //Confeccionar un programa que permita :
 //1-Almacenar en una matriz los datos de 5 personas.
 //2-Imprimir los nombres.
-//3-Ordenar alfabéticamente los nombres.
+//3-Ordenar alfabÃ©ticamente los nombres.
 
 #include<stdio.h>
 #include<conio.h>
