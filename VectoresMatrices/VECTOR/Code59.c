@@ -1,4 +1,4 @@
-//Una empresa tiene dos turnos (mañana y tarde) en los que trabajan 8 empleados (4 por la mañana y 4 por la tarde)
+//Una empresa tiene dos turnos (maÃ±ana y tarde) en los que trabajan 8 empleados (4 por la maÃ±ana y 4 por la tarde)
 //Confeccionar un programa que permita almacenar los sueldos de los empleados agrupados por turno (definir los dos vectores con componentes de tipo float)
 //Imprimir los gastos en sueldos de cada turno.
 
@@ -34,7 +34,7 @@ int main()
         man=man+turnoMan[f];
         tar=tar+turnoTar[f];
     }
-    printf("Total de gastos del turno de la mañana:");
+    printf("Total de gastos del turno de la maÃ±ana:");
     printf("%0.2f",man);
     printf("\n");
     printf("Total de gastos del turno de la tarde:");
