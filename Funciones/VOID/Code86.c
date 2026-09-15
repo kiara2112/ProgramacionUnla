@@ -1,6 +1,6 @@
-//Confeccionar una aplicación que solicite la carga de dos valores enteros y muestre su suma.
+//Confeccionar una aplicaciÃ³n que solicite la carga de dos valores enteros y muestre su suma.
 //Repetir la carga de otros dos valores, sumarlos y mostrar.
-//Mostrar una línea separadora después de cada vez que cargamos dos valores y mostramos su suma.
+//Mostrar una lÃ­nea separadora despuÃ©s de cada vez que cargamos dos valores y mostramos su suma.
 
 
 #include<stdio.h>
