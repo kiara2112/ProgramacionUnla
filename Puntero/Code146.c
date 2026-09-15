@@ -1,10 +1,10 @@
-//Confeccionar una función que reciba como parámetros las direcciones de dos variables enteras y
+//Confeccionar una funciÃ³n que reciba como parÃ¡metros las direcciones de dos variables enteras y
 //le cargue a lo apuntado por dichas variables dos enteros.
 
 #include<stdio.h>
 #include<conio.h>
 
-void cargar(int *pe1,int *pe2) //modificar una variable char, int o float en una función lo que hacemos es pasar la dirección de la variable y que lo reciba un puntero.
+void cargar(int *pe1,int *pe2) //modificar una variable char, int o float en una funciÃ³n lo que hacemos es pasar la direcciÃ³n de la variable y que lo reciba un puntero.
 {
     *pe1=100; //en vez de hacer un int, char o float y retornarlo, podemos pasarlo directamente con un puntero (como se hacia con un vector) y se intercambia el original
     *pe2=200;
