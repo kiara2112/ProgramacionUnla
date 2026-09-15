@@ -1,4 +1,4 @@
-//Ingresar por teclado dos nombres de personas y luego mostrarlas primero el que tiene m·s caracteres y luego el que tiene menos.
+//Ingresar por teclado dos nombres de personas y luego mostrarlas primero el que tiene m√°s caracteres y luego el que tiene menos.
 
 #include<stdio.h>
 #include<conio.h>
