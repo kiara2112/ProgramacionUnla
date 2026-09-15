@@ -1,6 +1,6 @@
-//Se tiene la siguiente declaraci髇 de registro:
-//Definir una variable en la funci髇 main e inicializar por asignaci髇 los tres campos.
-//Plantear una funci髇 que reciba el registro y lo imprima.
+//Se tiene la siguiente declaraci贸n de registro:
+//Definir una variable en la funci贸n main e inicializar por asignaci贸n los tres campos.
+//Plantear una funci贸n que reciba el registro y lo imprima.
 
 #include<stdio.h>
 #include<conio.h>
