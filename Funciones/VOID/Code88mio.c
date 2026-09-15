@@ -1,4 +1,4 @@
-//Desarrollar una función que solicite la carga de tres valores y muestre el menor. Desde la función main llamar 3 veces a dicha función.
+//Desarrollar una funciÃ³n que solicite la carga de tres valores y muestre el menor. Desde la funciÃ³n main llamar 3 veces a dicha funciÃ³n.
 
 void menor()
 {
