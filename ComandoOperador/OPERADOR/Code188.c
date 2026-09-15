@@ -1,6 +1,6 @@
 //Cargar dos valores por teclado. Guardar en otra variable el mayor valor ingresado y mostrarlo.
 
-//Este operador hace m·s compacta ciertas algoritmos en las que interviene una estructura condicional if.
+//Este operador hace m√°s compacta ciertas algoritmos en las que interviene una estructura condicional if.
 //es como un if chiquito
 
 #include<stdio.h>
@@ -14,7 +14,7 @@ int main()
     scanf("%i",&v1);
     printf("Ingrese segundo valor:");
     scanf("%i",&v2);
-    may=(v1>v2)?v1:v2; //condiciÛn ? valor si cierto : valor si falso
+    may=(v1>v2)?v1:v2; //condici√≥n ? valor si cierto : valor si falso
     printf("El valor mayor es:%i",may);
     getch();
     return 0;
