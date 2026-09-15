@@ -1,4 +1,4 @@
-//Plantear una función que reciba la dirección de un registro y mediante esta modificar los campos de la variable que le pasamos desde la main.
+//Plantear una funciÃ³n que reciba la direcciÃ³n de un registro y mediante esta modificar los campos de la variable que le pasamos desde la main.
 //Imprimir el registro definido en la main.
 
 #include<stdio.h>
