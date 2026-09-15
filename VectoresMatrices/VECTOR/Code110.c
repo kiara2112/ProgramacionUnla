@@ -1,4 +1,4 @@
-//Confeccionar un programa que defina en la main un vector de 5 elementos de tipo entero. Cargar e imprimir el mayor elemento y su posción.
+//Confeccionar un programa que defina en la main un vector de 5 elementos de tipo entero. Cargar e imprimir el mayor elemento y su posciÃ³n.
 
 #include<stdio.h>
 #include<conio.h>
