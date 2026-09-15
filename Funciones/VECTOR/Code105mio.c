@@ -1,8 +1,8 @@
-//Definir un vector de 5 componentes de tipo float en la función main que representen las alturas de 5 personas.
+//Definir un vector de 5 componentes de tipo float en la funciÃ³n main que representen las alturas de 5 personas.
 //Desarrollar las siguientes funciones:
 //1-Carga del vector.
 //2-Retornar el promedio del vector. float calcularPromedio(float alturas[5])
-//3-Contar y luego imprimir cuántas personas son más altas que el promedio y cuántas más bajas. void altasBajas(float alturas[5],float pro)
+//3-Contar y luego imprimir cuÃ¡ntas personas son mÃ¡s altas que el promedio y cuÃ¡ntas mÃ¡s bajas. void altasBajas(float alturas[5],float pro)
 
 #include<stdio.h>
 #include<conio.h>
