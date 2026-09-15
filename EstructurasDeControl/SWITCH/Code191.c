@@ -1,6 +1,6 @@
 //Ingresar por teclado dos valores enteros. Seguidamente solicitar el ingreso de un caracter '+','-','*' o '/'.
 //Dependiendo del operador ingresado sumar, restar, multiplicar o dividir los valores ingresados.
-//Si no se ingresa un operador v·lido no hacer nada.
+//Si no se ingresa un operador v√°lido no hacer nada.
 
 #include<stdio.h>
 #include<conio.h>
