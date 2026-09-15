@@ -1,5 +1,5 @@
-//Ingresar por teclado una oración de hasta 200 caracteres. Se sabe que el operador ingresa solo un caracter en blanco entre palabras.
-//Imprimir por pantalla la cantidad de palabras que tiene la oración.
+//Ingresar por teclado una oraciÃ³n de hasta 200 caracteres. Se sabe que el operador ingresa solo un caracter en blanco entre palabras.
+//Imprimir por pantalla la cantidad de palabras que tiene la oraciÃ³n.
 
 #include<stdio.h>
 #include<conio.h>
