@@ -1,5 +1,5 @@
 //Realizar la carga de valores enteros por teclado y sumarlos.
-//Cada vez que se carga un valor pedir al operador que ingrese si quiere cargar otro valor ingresando una 's' o 'S' (minúscula o mayúscula)
+//Cada vez que se carga un valor pedir al operador que ingrese si quiere cargar otro valor ingresando una 's' o 'S' (minÃºscula o mayÃºscula)
 
 #include<stdio.h>
 #include<conio.h>
