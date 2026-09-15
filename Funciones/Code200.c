@@ -1,10 +1,10 @@
-//Implementar un programa que llame al programa del problema 1 (code199.c) mediante el empleo de la funciÛn system. Imprimir el cÛdigo devuelto.
+//Implementar un programa que llame al programa del problema 1 (code199.c) mediante el empleo de la funci√≥n system. Imprimir el c√≥digo devuelto.
 
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h> //se encuentra declara la funcion system y exit
 
-//nos permite ejecutar otro programa. Debemos pasar como par·metro una cadena con el nombre del programa a ejecutar, debe ser un programa ejecutable el mismo.
+//nos permite ejecutar otro programa. Debemos pasar como par√°metro una cadena con el nombre del programa a ejecutar, debe ser un programa ejecutable el mismo.
 //ambas deben encontrarse en la misma carpeta. Si no, debemos llamar la carpeta que encuentra y el archivo codigo=system("c:\\programasc\\code199.exe");
 int main()
 {
