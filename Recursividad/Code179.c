@@ -1,7 +1,7 @@
-//Imprimir la información de una lista simplemente encadenada de atrás para adelante.
+//Imprimir la informaciÃ³n de una lista simplemente encadenada de atrÃ¡s para adelante.
 //El empleo de estructuras repetitivas para resolver este problema es bastante engorroso y lento
-//(debemos avanzar hasta el último nodo e imprimir, luego avanzar desde el principio hasta el anteúltimo nodo y así sucesivamente)
-//El empleo de la recursividad para este problema hace más sencillo su solución.
+//(debemos avanzar hasta el Ãºltimo nodo e imprimir, luego avanzar desde el principio hasta el anteÃºltimo nodo y asÃ­ sucesivamente)
+//El empleo de la recursividad para este problema hace mÃ¡s sencillo su soluciÃ³n.
 
 
 //NO ENTENDI UNA MIERDA, que Kiara del futuro se fije (https://www.youtube.com/watch?v=v_tmnsnhLPo)
