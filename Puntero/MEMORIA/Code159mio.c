@@ -1,4 +1,4 @@
-//Pedir ingresar por teclado cuantas letras tiene una palabra. Seguidamente crear un vector en forma din·mica que reserve el espacio mÌnimo para ingresar dicha palabra.
+//Pedir ingresar por teclado cuantas letras tiene una palabra. Seguidamente crear un vector en forma din√°mica que reserve el espacio m√≠nimo para ingresar dicha palabra.
 //Cargar por teclado la palabra, mostrarla y finalmente liberar el espacio requerido.
 
 #include<stdio.h>
