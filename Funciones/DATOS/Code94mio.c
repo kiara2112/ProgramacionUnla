@@ -1,4 +1,4 @@
-//Elaborar una función que reciba un valor entero y nos muestre desde el 1 hasta dicho valor. Si la función recibe un valor negativo mostrar un mensaje de error.
+//Elaborar una funciÃ³n que reciba un valor entero y nos muestre desde el 1 hasta dicho valor. Si la funciÃ³n recibe un valor negativo mostrar un mensaje de error.
 
 #include<stdio.h>
 #include<conio.h>
