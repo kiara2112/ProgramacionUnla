@@ -1,16 +1,16 @@
-//Confeccionar un programa que muestre una presentación en pantalla del programa. Solicite la carga de dos valores y nos muestre la suma.
+//Confeccionar un programa que muestre una presentaciÃ³n en pantalla del programa. Solicite la carga de dos valores y nos muestre la suma.
 //Mostrar finalmente un mensaje de despedida del programa. Implementar estas actividades en tres funciones.
 
 #include<stdio.h>
 #include<conio.h> //console
 
-void presentacion() //que dato va a devolver (VOID), no va a devolver ningun dato. Toda función tiene un nombre que no puede tener espacios en blanco (pre sentacion no), no puede empezar por un numero
+void presentacion() //que dato va a devolver (VOID), no va a devolver ningun dato. Toda funciÃ³n tiene un nombre que no puede tener espacios en blanco (pre sentacion no), no puede empezar por un numero
 {
     printf("Programa que permite cargar dos valores por teclado.\n");
     printf("Efectua la suma de los valores\n");
     printf("Muestra el resultado de la suma\n");
     printf("*******************************\n"); //al final para que no se superpongan ponemos \n
-    //return n No requiere que tenga la palabra clave return como hemos dispuesto siempre en la función main)
+    //return n No requiere que tenga la palabra clave return como hemos dispuesto siempre en la funciÃ³n main)
 }
 
 void cargaSuma()//
