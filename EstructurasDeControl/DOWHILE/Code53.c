@@ -1,5 +1,5 @@
 //Realizar un programa que permita ingresar el peso (en kilogramos) de piezas. El proceso termina cuando ingresamos el valor 0. Se debe informar:
-//a) ¿Cuántas piezas tienen un peso entre 9.8 Kg. y 10.2 Kg.?, ¿Cuántas con más de 10.2 Kg.? y ¿Cuántas con menos de 9.8 Kg.?
+//a) Â¿CuÃ¡ntas piezas tienen un peso entre 9.8 Kg. y 10.2 Kg.?, Â¿CuÃ¡ntas con mÃ¡s de 10.2 Kg.? y Â¿CuÃ¡ntas con menos de 9.8 Kg.?
 //b) La cantidad total de piezas procesadas.
 
 #include<stdio.h>
