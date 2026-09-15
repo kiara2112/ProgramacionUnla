@@ -1,4 +1,4 @@
-//Ingresar por teclado una palabra en minúsculas y luego contar la cantidad de vocales y consonantes que tiene.
+//Ingresar por teclado una palabra en minÃºsculas y luego contar la cantidad de vocales y consonantes que tiene.
 
 #include<stdio.h>
 #include<string.h>
