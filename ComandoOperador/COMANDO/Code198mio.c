@@ -1,5 +1,5 @@
 //Definir una matriz de 5 filas y 10 columnas. Cargar valores aleatorios comprendidos entre 1 y 10.
-//Ingresar por teclado un número y verificar si se encuentra en la matriz. No buscar más si se lo encuentra, salir de los ciclos mediante un goto.
+//Ingresar por teclado un nÃºmero y verificar si se encuentra en la matriz. No buscar mÃ¡s si se lo encuentra, salir de los ciclos mediante un goto.
 
 #include<stdio.h>
 #include<stdlib.h>
