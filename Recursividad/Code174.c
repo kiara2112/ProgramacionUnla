@@ -1,4 +1,4 @@
-//Implementar una funciÛn recursiva que reciba un par·metro de tipo entero y luego llame en forma recursiva con el valor del par·metro menos 1.
+//Implementar una funci√≥n recursiva que reciba un par√°metro de tipo entero y luego llame en forma recursiva con el valor del par√°metro menos 1.
 
 #include <stdio.h>
 #include<conio.h>
