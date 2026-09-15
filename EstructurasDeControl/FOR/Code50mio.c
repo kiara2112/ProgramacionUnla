@@ -1,5 +1,5 @@
-//Se cuenta con la siguiente información:
-//Las edades de 5 estudiantes del turno mañana.
+//Se cuenta con la siguiente informaciÃ³n:
+//Las edades de 5 estudiantes del turno maÃ±ana.
 //Las edades de 6 estudiantes del turno tarde.
 //Las edades de 11 estudiantes del turno noche.
 //Las edades de cada estudiante deben ingresarse por teclado.
@@ -53,7 +53,7 @@ int main()
 
     if (proMana<proTarde && proMana<proNoche)
     {
-        printf("El menor promedio es a la Mañana");
+        printf("El menor promedio es a la MaÃ±ana");
     }
     else
     {
