@@ -1,4 +1,4 @@
-//Escribir un programa que lea 10 notas de alumnos y nos informe cu·ntos tienen notas mayores o iguales a 7 y cu·ntos menores.
+//Escribir un programa que lea 10 notas de alumnos y nos informe cu√°ntos tienen notas mayores o iguales a 7 y cu√°ntos menores.
 
 #include<stdio.h>
 #include<conio.h>
