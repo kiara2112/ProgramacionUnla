@@ -1,10 +1,10 @@
-//Se tiene la siguiente información:
+//Se tiene la siguiente informaciÃ³n:
 //Nombres de 4 empleados (matriz de tipo char)
-//Ingresos en concepto de sueldo, cobrado por cada empleado, en los últimos 3 meses (matriz de tipo float)
+//Ingresos en concepto de sueldo, cobrado por cada empleado, en los Ãºltimos 3 meses (matriz de tipo float)
 //Confeccionar el programa para:
-//a) Realizar la carga de la información mencionada. LISTO
-//b) Generar un vector que contenga el ingreso acumulado en sueldos en los últimos 3 meses para cada empleado.
-//c) Mostrar por pantalla el total pagado en sueldos a todos los empleados en los últimos 3 meses
+//a) Realizar la carga de la informaciÃ³n mencionada. LISTO
+//b) Generar un vector que contenga el ingreso acumulado en sueldos en los Ãºltimos 3 meses para cada empleado.
+//c) Mostrar por pantalla el total pagado en sueldos a todos los empleados en los Ãºltimos 3 meses
 //d) Obtener el nombre del empleado que tuvo el mayor ingreso acumulado
 //Utilizar macros para definir la cantidad de filas y columnas de las estructuras de datos.
 
