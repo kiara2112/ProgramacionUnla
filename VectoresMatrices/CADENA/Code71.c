@@ -14,11 +14,11 @@ int main()
     gets(nombre1); //gets sirve para leer una cadena de caracteres
 
     printf("Ingrese la edad:"); //la primera vez no se usa fflush porque no ingreso nada por teclado
-    scanf("%i",&edad1); //la función scanf queda en el buffer de teclado el valor de la tecla "enter"
-    fflush(stdin); // luego para eliminarlo y que no se cargue en la siguiente variable debemos llamar a la función fflush, stdin administra el buffer del teclado
+    scanf("%i",&edad1); //la funciÃ³n scanf queda en el buffer de teclado el valor de la tecla "enter"
+    fflush(stdin); // luego para eliminarlo y que no se cargue en la siguiente variable debemos llamar a la funciÃ³n fflush, stdin administra el buffer del teclado
 
     printf("Ingrese el nombre de la segundo persona:");
-    gets(nombre2);//Si probamos de no llamar a la función fflush podremos ver que en la variable "nombre2" se carga una cadena vacía (sale en nada), ya que ingreso enter y salta la linea a cargar la edad
+    gets(nombre2);//Si probamos de no llamar a la funciÃ³n fflush podremos ver que en la variable "nombre2" se carga una cadena vacÃ­a (sale en nada), ya que ingreso enter y salta la linea a cargar la edad
     printf("Ingrese la edad:");
     scanf("%i",&edad2);
 
