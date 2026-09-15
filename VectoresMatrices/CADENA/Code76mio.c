@@ -1,4 +1,4 @@
-//Permitir el ingreso de una palabra en minúsculas por teclado. Cambiar todas las vocales por un caracter de guión: '-'.
+//Permitir el ingreso de una palabra en minÃºsculas por teclado. Cambiar todas las vocales por un caracter de guiÃ³n: '-'.
 
 #include<stdio.h>
 #include<conio.h>
