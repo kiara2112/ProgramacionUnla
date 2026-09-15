@@ -1,4 +1,4 @@
-//Confeccionar una función que reciba tres enteros y nos muestre el mayor de ellos. La carga de los valores hacerlo por teclado en la función main.
+//Confeccionar una funciÃ³n que reciba tres enteros y nos muestre el mayor de ellos. La carga de los valores hacerlo por teclado en la funciÃ³n main.
 
 #include<stdio.h>
 #include<conio.h>
