@@ -1,4 +1,4 @@
-//mplementar una función recursiva que imprima en forma descendente de 5 a 1 de uno en uno.
+//mplementar una funciÃ³n recursiva que imprima en forma descendente de 5 a 1 de uno en uno.
 
 #include <stdio.h>
 #include<conio.h>
