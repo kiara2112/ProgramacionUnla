@@ -1,5 +1,5 @@
 //Confeccionar dos funciones:
-//1-Permita ingresar por teclado una palabra en un vector de caracteres que llega como par·metro.
+//1-Permita ingresar por teclado una palabra en un vector de caracteres que llega como par√°metro.
 //2-Retornar la cantidad de vocales que tiene la palabra.
 
 #include<stdio.h>
