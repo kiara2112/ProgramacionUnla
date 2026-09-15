@@ -1,5 +1,5 @@
 //Desarrollar un programa para administrar un vector de 5 enteros.
-//En la función de carga e impresión utilizar la sintaxis de punteros para acceder a sus elementos (no utilizar la sintaxis de subíndice)
+//En la funciÃ³n de carga e impresiÃ³n utilizar la sintaxis de punteros para acceder a sus elementos (no utilizar la sintaxis de subÃ­ndice)
 
 #include<stdio.h>
 #include<conio.h>
