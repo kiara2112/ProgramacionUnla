@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-//A un vector o matriz accedemos a sus elementos por medio de subíndices, a los elementos de un registro se los llama campos y tienen cada uno un nombre.
+//A un vector o matriz accedemos a sus elementos por medio de subÃ­ndices, a los elementos de un registro se los llama campos y tienen cada uno un nombre.
 //puede guardar cosas que no necesariamente debe de ser del mismo tipo, pero si relacionados
 struct producto { //deben de declararse
     int codigo;
