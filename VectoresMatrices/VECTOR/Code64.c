@@ -1,4 +1,4 @@
-//Definir tres variables de tipo char y cargar dos por asignación y la tercera por teclado. Imprimir los valores de las mismas.
+//Definir tres variables de tipo char y cargar dos por asignaciÃ³n y la tercera por teclado. Imprimir los valores de las mismas.
 
 #include<stdio.h>
 #include<conio.h>
