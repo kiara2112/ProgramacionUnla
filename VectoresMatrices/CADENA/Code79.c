@@ -1,5 +1,5 @@
 //Cargar por teclado dos nombres de personas que tengan distinta cantidad de caracteres. Almacenar en un tercer vector de caracteres
-//el nombre que tenga m·s caracteres. Luego imprimir dicho vector.
+//el nombre que tenga m√°s caracteres. Luego imprimir dicho vector.
 
 #include<stdio.h>
 #include<conio.h>
