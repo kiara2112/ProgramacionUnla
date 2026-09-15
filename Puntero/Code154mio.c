@@ -1,6 +1,6 @@
 //Se define en la main un vector de tipo char de 40 caracteres.
-//Implementar las funciones de carga e impresiÛn de dicho vector utilizando
-//la sintaxis de punteros cuando definamos los par·metros de las funciones.
+//Implementar las funciones de carga e impresi√≥n de dicho vector utilizando
+//la sintaxis de punteros cuando definamos los par√°metros de las funciones.
 
 #include<stdio.h>
 #include<conio.h>
