@@ -1,5 +1,5 @@
 //Confeccionar un programa que permita cargar e imprimir un vector de 5 elementos de tipo float.
-//Utilizar la sintaxis de punteros en los par·metros de las funciones.
+//Utilizar la sintaxis de punteros en los par√°metros de las funciones.
 
 //un vector es un puntero que contiene la direecion del primer valor
 //podemos ingresar con cualquiera de los 2 valores (al vector o p)
