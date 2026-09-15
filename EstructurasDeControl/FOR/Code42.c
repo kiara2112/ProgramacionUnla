@@ -1,4 +1,4 @@
-//programa que lea n números enteros y calcule la cantidad de valores mayores o iguales a 1000.
+//programa que lea n nÃºmeros enteros y calcule la cantidad de valores mayores o iguales a 1000.
 
 #include<stdio.h>
 #include<conio.h>
