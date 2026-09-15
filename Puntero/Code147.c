@@ -1,4 +1,4 @@
-//Elaborar una función que se le pase la dirección de una variable entera e incremente en 1 lo apuntado por dicha variable.
+//Elaborar una funciÃ³n que se le pase la direcciÃ³n de una variable entera e incremente en 1 lo apuntado por dicha variable.
 
 
 #include<stdio.h>
