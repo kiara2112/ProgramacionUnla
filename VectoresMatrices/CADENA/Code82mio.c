@@ -1,4 +1,4 @@
-//Ingresar por teclado dos nombres de personas y luego mostrarlas ordenados alfabéticamente.
+//Ingresar por teclado dos nombres de personas y luego mostrarlas ordenados alfabÃ©ticamente.
 
 #include<stdio.h>
 #include<conio.h>
