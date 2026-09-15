@@ -1,11 +1,11 @@
 //Confeccionar un programa que permita administrar un vector de 5 enteros.
-//Mostrar un menú de opciones:
+//Mostrar un menÃº de opciones:
 //1 - Cargar el vector.
 //2 - Mostrarlo
 //3 - Imprimir el mayor
 //4 - Imprimir el menor
 //5 - Finalizar el programa
-//Utilizar un switch para la selección de la opción y la llamada a la función respectiva.
+//Utilizar un switch para la selecciÃ³n de la opciÃ³n y la llamada a la funciÃ³n respectiva.
 
 #include<stdio.h>
 #include<conio.h>
