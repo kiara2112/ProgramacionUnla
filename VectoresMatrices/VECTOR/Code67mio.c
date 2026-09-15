@@ -1,5 +1,5 @@
 //Confeccionar un programa que solicite la carga de dos valores enteros por teclado. Luego solicitar que se cargue alguno de los caracteres: '+', '-', '*' o '/'.
-//Según el caracter ingresado proceder a mostrar la sumar, resta, multiplicación o división de los valores ingresados.
+//SegÃºn el caracter ingresado proceder a mostrar la sumar, resta, multiplicaciÃ³n o divisiÃ³n de los valores ingresados.
 
 #include<stdio.h>
 #include<conio.h>
