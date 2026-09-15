@@ -1,5 +1,5 @@
-//Desarrollar dos funciones que reciban como par·metro el valor del lado de un cuadrado.
-//La primera debe calcular y mostrar la superficie y la segunda calcular y mostrar el perÌmetro.
+//Desarrollar dos funciones que reciban como par√°metro el valor del lado de un cuadrado.
+//La primera debe calcular y mostrar la superficie y la segunda calcular y mostrar el per√≠metro.
 //En la main llamar a las funciones pasando los valores enteros comprendidos entre 10 y 20
 
 #include<stdio.h>
