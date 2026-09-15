@@ -1,6 +1,6 @@
 //Guardar los datos de 6 sueldos de empleados en un vector de tipo float. Confeccionar las siguientes funciones:
 //1-Carga de sueldos.
-//2-Impresión de los sueldos.
+//2-ImpresiÃ³n de los sueldos.
 //3-Gasto total de la empresa en sueldos.
 
 #include<stdio.h>
