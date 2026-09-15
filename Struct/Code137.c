@@ -1,7 +1,7 @@
-//Se tiene la siguiente declaración de registro:
+//Se tiene la siguiente declaraciÃ³n de registro:
 //Definir un vector de 4 elementos de tipo producto. Implementar las funciones:
 //Carga del vector.
-//Impresión del vector.
+//ImpresiÃ³n del vector.
 //Mostrar el nombre del articulo con precio mayor.
 
 #include<stdio.h>
