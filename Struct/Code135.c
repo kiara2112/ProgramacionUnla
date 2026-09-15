@@ -1,7 +1,7 @@
 
-//Se tiene la siguiente declaración de registro:
+//Se tiene la siguiente declaraciÃ³n de registro:
 //Plantear dos funciones una que cargue un registro de tipo producto y otra que lo imprima.
-//En la función main definir dos variables de tipo producto llamar a las funciones anteriores.
+//En la funciÃ³n main definir dos variables de tipo producto llamar a las funciones anteriores.
 
 #include<stdio.h>
 #include<conio.h>
