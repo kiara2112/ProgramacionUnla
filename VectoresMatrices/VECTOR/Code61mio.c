@@ -1,5 +1,5 @@
-//Realizar un programa que pida la carga de dos vectores numéricos enteros de 4 elementos. Obtener la suma de los dos vectores,
-//dicho resultado guardarlo en un tercer vector del mismo tamaño. Sumar componente a componente.
+//Realizar un programa que pida la carga de dos vectores numÃ©ricos enteros de 4 elementos. Obtener la suma de los dos vectores,
+//dicho resultado guardarlo en un tercer vector del mismo tamaÃ±o. Sumar componente a componente.
 
 #include<stdio.h>
 #include<conio.h>
