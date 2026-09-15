@@ -1,7 +1,7 @@
 //Confeccionar un programa que permita cargar un vector de 5 enteros y obtenga el mayor y el menor.
 //Implementar dos funciones:
 //1-Carga del vector
-//2-Otra funciÛn que reciba el vector y retorne el mayor y menor elemento del vector por medio de dos par·metros de tipo puntero:
+//2-Otra funci√≥n que reciba el vector y retorne el mayor y menor elemento del vector por medio de dos par√°metros de tipo puntero:
 //void mayorMenor(int vec[TAMANO],int *pmayor,int *pmenor)
 
 #define TAMANO 5
@@ -58,7 +58,7 @@ int main()
     int mayor, menor;
     cargar(vector);
     imprimir(vector);
-    mayorMenor(vector,&mayor,&menor); //mandamos al void la direccion del valor que queremos que agarre el puntero, no mandamos el puntero seÒalizado en este momento
+    mayorMenor(vector,&mayor,&menor); //mandamos al void la direccion del valor que queremos que agarre el puntero, no mandamos el puntero se√±alizado en este momento
     printf("el menor valor es %i y el mayor %i", menor, mayor); //mostramos el menor y el mayor(no el puntero, aunque se podria, pero es mejor asi porque ya lo definimos dentro de este int)
     getchar();
     return 0;
