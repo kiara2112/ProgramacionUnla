@@ -1,4 +1,4 @@
-//Confeccionar una funciÛn que le enviemos como par·metro el valor del lado de un cuadrado y nos retorne su superficie.
+//Confeccionar una funci√≥n que le enviemos como par√°metro el valor del lado de un cuadrado y nos retorne su superficie.
 
 #include<stdio.h>
 #include<conio.h>
