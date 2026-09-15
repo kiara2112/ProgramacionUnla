@@ -1,4 +1,4 @@
-//Confeccionar una funciÛn que defina dos par·metros enteros y nos retorne el mayor.
+//Confeccionar una funci√≥n que defina dos par√°metros enteros y nos retorne el mayor.
 
 #include<stdio.h>
 #include<conio.h>
