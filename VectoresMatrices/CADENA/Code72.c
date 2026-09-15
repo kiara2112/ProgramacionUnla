@@ -1,4 +1,4 @@
-//Ingresar por teclado una palabra en minúsculas. Mostrar por pantalla la cantidad de vocales que tienen dicha palabra.
+//Ingresar por teclado una palabra en minÃºsculas. Mostrar por pantalla la cantidad de vocales que tienen dicha palabra.
 
 #include<stdio.h>
 #include<conio.h>
