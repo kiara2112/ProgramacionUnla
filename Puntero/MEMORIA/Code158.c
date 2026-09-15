@@ -1,13 +1,13 @@
-//Se tiene la siguiente declaración de registro:
-//Definir un puntero de tipo producto y luego mediante la función malloc crear un registro en la pila dinámica.
-//Cargar el registro, imprimirlo y finalmente liberar el espacio reservado mediante la función free.
+//Se tiene la siguiente declaraciÃ³n de registro:
+//Definir un puntero de tipo producto y luego mediante la funciÃ³n malloc crear un registro en la pila dinÃ¡mica.
+//Cargar el registro, imprimirlo y finalmente liberar el espacio reservado mediante la funciÃ³n free.
 
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
 #include<stdlib.h>
 
-// Para trabajar con memoria dinámica en C es obligatorio utilizar punteros
+// Para trabajar con memoria dinÃ¡mica en C es obligatorio utilizar punteros
 
 struct producto {
     int codigo;
