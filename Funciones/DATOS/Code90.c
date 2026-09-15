@@ -1,5 +1,5 @@
-//Confeccionar un programa que solicite el pago por hora de un empleado y la cantidad de horas trabajadas dentro de una estructura repetitiva en la funciÛn main.
-//Elaborar una funciÛn que reciba como par·metro el valor de la hora y la cantidad de horas trabajadas y nos muestre el total a pagar.
+//Confeccionar un programa que solicite el pago por hora de un empleado y la cantidad de horas trabajadas dentro de una estructura repetitiva en la funci√≥n main.
+//Elaborar una funci√≥n que reciba como par√°metro el valor de la hora y la cantidad de horas trabajadas y nos muestre el total a pagar.
 
 #include<stdio.h>
 #include<conio.h>
