@@ -1,4 +1,4 @@
-//Imprimir los números de 1 a 5 en pantalla utilizando recursividad.
+//Imprimir los nÃºmeros de 1 a 5 en pantalla utilizando recursividad.
 
 #include <stdio.h>
 #include<conio.h>
