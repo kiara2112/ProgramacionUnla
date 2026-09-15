@@ -1,4 +1,4 @@
-//Definir una matriz de 2 filas y 5 columnas. Realizar su carga e impresión.
+//Definir una matriz de 2 filas y 5 columnas. Realizar su carga e impresiÃ³n.
 //Intercambiar los elementos de la primera fila con la segunda y volver a imprimir la matriz.
 
 
