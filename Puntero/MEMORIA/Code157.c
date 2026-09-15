@@ -1,5 +1,5 @@
 //Ingresar por teclado un entero que represente la cantidad de elementos que debe crearse un vector.
-//Crear el vector en forma din·mica, cargar e imprimir sus datos. Hacer todo en la main.
+//Crear el vector en forma din√°mica, cargar e imprimir sus datos. Hacer todo en la main.
 
 #include<stdio.h>
 #include<conio.h>
