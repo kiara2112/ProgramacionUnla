@@ -1,4 +1,4 @@
-Confeccionar una función que reciba dos enteros e imprima el mayor de ellos. Llamar a la función desde la main cargando previamente dos valores por teclado.
+Confeccionar una funciÃ³n que reciba dos enteros e imprima el mayor de ellos. Llamar a la funciÃ³n desde la main cargando previamente dos valores por teclado.
 
 #include<stdio.h>
 #include<conio.h>
