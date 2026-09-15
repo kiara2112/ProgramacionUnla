@@ -7,7 +7,7 @@ void cuadrado()
     printf("ingresar un numero: ");
     scanf("%i", &num);
 
-    cuadra=num*num; //En el lenguaje de programación C no existe un signo o operador específico (como ^) para elevar un número al cuadrado
+    cuadra=num*num; //En el lenguaje de programaciÃ³n C no existe un signo o operador especÃ­fico (como ^) para elevar un nÃºmero al cuadrado
 
     printf("el cuadrado de %i es %i", num, cuadra);
 }
