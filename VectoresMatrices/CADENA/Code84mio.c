@@ -1,4 +1,4 @@
-//Cargar tres nombres por teclado. Generar un cuarto string que almacene los tres nombres ingresados por teclado en orden alfabÈtico separados por una coma.
+//Cargar tres nombres por teclado. Generar un cuarto string que almacene los tres nombres ingresados por teclado en orden alfab√©tico separados por una coma.
 
 #include<stdio.h>
 #include<conio.h>
@@ -18,9 +18,9 @@ int main()
     printf("ingresa el TERCER nombre: ");
     gets (nombre3);
 
-    //Si usas < 0, est·s buscando cu·l va primero (orden de A a Z).
+    //Si usas < 0, est√°s buscando cu√°l va primero (orden de A a Z).
 
-    //Si usas > 0, est·s buscando cu·l es el mayor/˙ltimo (orden de Z a A).
+    //Si usas > 0, est√°s buscando cu√°l es el mayor/√∫ltimo (orden de Z a A).
 
 
     if (strcmp(nombre1,nombre2)<0 && strcmp(nombre1, nombre3)<0) //el nombre1 es MENOR alfabeticamente, eso lo haria que este mas cerca de A, lo convierte en el primer, Por eso no va > porque seria el mayor alfabeticamente y (Ejemplo ana, seria la ultima de la lista, aunque sea el primero del abecesario, porque eso verificaria que ana es el ultimo de la lista, no el primero)
@@ -46,7 +46,7 @@ int main()
     {
         if (strcmp(nombre2, nombre3)<0)//si nombre1 no es el mayor, el mayor debe ser o nombre2 o nombre3, aca verifica si nombre 2 es mayor a 3, significamndo que esta mas cerca a A y lo convierte en el primero alfabeticamente
         {
-            strcpy(unionNombre,nombre2); //empieza con strcpy porque antes no lo seÒalizamos
+            strcpy(unionNombre,nombre2); //empieza con strcpy porque antes no lo se√±alizamos
             strcat(unionNombre,", ");
 
             if (strcmp(nombre1,nombre3)<0)
