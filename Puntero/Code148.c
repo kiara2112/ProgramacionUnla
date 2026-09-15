@@ -1,4 +1,4 @@
-//Implementar una función que intercambie el contenido de dos variables enteras, utilizar punteros para solucionarlo.
+//Implementar una funciÃ³n que intercambie el contenido de dos variables enteras, utilizar punteros para solucionarlo.
 
 #include<stdio.h>
 #include<conio.h>
