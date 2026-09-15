@@ -1,8 +1,8 @@
-//Se tiene la siguiente declaraci髇 de registro:
-//Definir tres variables de tipo pa韘 e iniciarlas por asignaci髇 con la sintaxis:
+//Se tiene la siguiente declaraci贸n de registro:
+//Definir tres variables de tipo pa铆s e iniciarlas por asignaci贸n con la sintaxis:
 //struct pais pais1={"Argentina",40000000};
-//Elaborar una funci髇 que reciba un par醡etro de tipo pais y muestre por pantalla sus dos campos.
-//Llamar a dicha funci髇 desde la main pasando en forma sucesiva las tres variables definidas.
+//Elaborar una funci贸n que reciba un par谩metro de tipo pais y muestre por pantalla sus dos campos.
+//Llamar a dicha funci贸n desde la main pasando en forma sucesiva las tres variables definidas.
 
 
 struct pais {
