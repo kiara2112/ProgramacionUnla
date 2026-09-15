@@ -1,4 +1,4 @@
-//Realizar la carga de 5 enteros por teclado. Mostrar por pantalla en castellano dicho número si está comprendido entre 1 y 5.
+//Realizar la carga de 5 enteros por teclado. Mostrar por pantalla en castellano dicho nÃºmero si estÃ¡ comprendido entre 1 y 5.
 
 
 #include<stdio.h>
