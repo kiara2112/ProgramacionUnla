@@ -1,5 +1,5 @@
 //Definir un vector de 5 componentes de tipo float que representen las alturas de 5 personas.
-//Obtener el promedio de las mismas. Contar cuántas personas son más altas que el promedio y cuántas más bajas.
+//Obtener el promedio de las mismas. Contar cuÃ¡ntas personas son mÃ¡s altas que el promedio y cuÃ¡ntas mÃ¡s bajas.
 
 #include<stdio.h>
 #include<conio.h>
