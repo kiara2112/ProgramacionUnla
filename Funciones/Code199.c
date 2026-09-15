@@ -6,7 +6,7 @@
 #include<stdlib.h> //
 
 
-//valor devuelto por convención es un 0 si el programa finaliza en forma correcta, si no un numero distinto a 0
+//valor devuelto por convenciÃ³n es un 0 si el programa finaliza en forma correcta, si no un numero distinto a 0
 
 void ingresoClave()
 {
