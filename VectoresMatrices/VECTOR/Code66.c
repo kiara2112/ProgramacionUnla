@@ -1,4 +1,4 @@
-//Mostrar el abecedario de la 'A' a la 'Z' primero en mayúsculas y luego en minúsculas. Utilizar una variable de tipo char dentro de un for.
+//Mostrar el abecedario de la 'A' a la 'Z' primero en mayÃºsculas y luego en minÃºsculas. Utilizar una variable de tipo char dentro de un for.
 
 #include<stdio.h>
 #include<conio.h>
