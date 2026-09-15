@@ -1,6 +1,6 @@
-//Se tiene la siguiente declaración de registro:
-//Definir tres variables de tipo país y almacenar los nombres de los países y la cantidad de habitantes de dichos países.
-//Mostrar seguidamente el nombre del país con mayor cantidad de habitantes (considerar que los tres países tienen cantidades distintas)
+//Se tiene la siguiente declaraciÃ³n de registro:
+//Definir tres variables de tipo paÃ­s y almacenar los nombres de los paÃ­ses y la cantidad de habitantes de dichos paÃ­ses.
+//Mostrar seguidamente el nombre del paÃ­s con mayor cantidad de habitantes (considerar que los tres paÃ­ses tienen cantidades distintas)
 
 #include<stdio.h>
 #include<conio.h>
@@ -14,7 +14,7 @@ struct pais {
 
 int main()
 {
-    struct pais pais1, pais2, pais3; //debo poner cual es el struct y despues los que definí
+    struct pais pais1, pais2, pais3; //debo poner cual es el struct y despues los que definÃ­
     printf("ingresar pais 1: ");
     gets(pais1.nombre);
     printf("ingresar habitantes: ");
