@@ -1,4 +1,4 @@
-//Escribir un programa que solicite la carga de números por teclado, obtener su promedio. Finalizar la carga de valores cuando se ingrese el valor 0.
+//Escribir un programa que solicite la carga de nÃºmeros por teclado, obtener su promedio. Finalizar la carga de valores cuando se ingrese el valor 0.
 
 #include<stdio.h>
 #include<conio.h>
