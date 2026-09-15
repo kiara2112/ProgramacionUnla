@@ -1,5 +1,5 @@
 //Se tienen las siguientes declaraciones de registros:
-//Definir un vector de 3 elementos de tipo producto, realizar su carga e impresión.
+//Definir un vector de 3 elementos de tipo producto, realizar su carga e impresiÃ³n.
 
 #include<stdio.h>
 #include<conio.h>
@@ -36,7 +36,7 @@ void cargar(struct producto vec[TAMANO])
         scanf("%i",&vec[f].fechavencimiento.dd); //nombre del vector, el campo de struct producto y su subdivision de fecha del dia
         printf("Mes:");
         scanf("%i",&vec[f].fechavencimiento.mm);
-        printf("Año:");
+        printf("AÃ±o:");
         scanf("%i",&vec[f].fechavencimiento.aa);
     }
 }
