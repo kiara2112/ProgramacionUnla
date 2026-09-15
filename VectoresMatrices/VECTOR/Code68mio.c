@@ -1,5 +1,5 @@
 //Realizar un programa que solicite la carga de la edad y sexo de dos personas. Luego mostrar la edad y sexo de la persona mayor.
-//Para almacenar el sexo definir variables de tipo char donde se almacenar· el caracter 'm' o 'f' indicando si es del sexo masculino o femenino.
+//Para almacenar el sexo definir variables de tipo char donde se almacenar√° el caracter 'm' o 'f' indicando si es del sexo masculino o femenino.
 
 #include<stdio.h>
 #include<conio.h>
