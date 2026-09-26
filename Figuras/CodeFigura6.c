@@ -13,7 +13,7 @@ int main()
     // El bucle empieza en el total de filas (n) y disminuye en cada paso (f--)
     for (f = n; f >= 0; f--) //da vuelta el f>=0
     {
-        // Este bucle imprime los guiones según el valor actual de f
+        // Este bucle imprime los guiones segÃºn el valor actual de f
         for (j = 0; j < f; j++)
         {
             printf("-");
