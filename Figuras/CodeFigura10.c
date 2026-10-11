@@ -12,12 +12,12 @@ int main()
   for (f=0; f<n; f++)
   {
       //(Espacios de la izquierda)
-      for (j=0; j<n-f; j++)//empuja la pirámide hacia la derecha y centrarla. En cada fila imprime n - f espacios:
+      for (j=0; j<n-f; j++)//empuja la pirÃ¡mide hacia la derecha y centrarla. En cada fila imprime n - f espacios:
       {
           printf(" ");
       }
-    //(Impresión de "x")
-      for (j=0; j<f*2+1; j++)//Fórmula matemática que genera números impares
+    //(ImpresiÃ³n de "x")
+      for (j=0; j<f*2+1; j++)//FÃ³rmula matemÃ¡tica que genera nÃºmeros impares
       {
           printf("x");
       }
