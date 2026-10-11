@@ -1,4 +1,4 @@
-//Mostrar los números del 1 al 10.
+//Mostrar los nÃºmeros del 1 al 10.
 
 #include<stdio.h>
 #include<conio.h>
