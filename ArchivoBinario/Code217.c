@@ -1,8 +1,8 @@
-//Abrir el archivo binario que se creÛ en el concepto anterior: "archivo1.dat" y leer sus datos. Recordemos que el archivo almacena un caracter, un entero y un float en ese orden.
+//Abrir el archivo binario que se cre√≥ en el concepto anterior: "archivo1.dat" y leer sus datos. Recordemos que el archivo almacena un caracter, un entero y un float en ese orden.
 
 //LECTURA DE DATOS PRIMITIVOS
 //para trabajar con los datos almacenados en un archivo, se hace una copia de los mismos en la memoria ram.
-//Debemos conocer los tipos de datos almacenados en el archivo binario y el orden exacto como est·n guardados (chat, int y float, en ese orden)
+//Debemos conocer los tipos de datos almacenados en el archivo binario y el orden exacto como est√°n guardados (chat, int y float, en ese orden)
 
 #include<stdio.h>
 #include<conio.h>
@@ -15,7 +15,7 @@ int main()
     if (arch==NULL)
         exit(1);
     char c;
-    fread(&c, sizeof(char), 1, arch); //fread lee el archivo, direccion donde se va a almacenar, el tamaÒo del archivo, 1 variable y el nombre logico del archivo
+    fread(&c, sizeof(char), 1, arch); //fread lee el archivo, direccion donde se va a almacenar, el tama√±o del archivo, 1 variable y el nombre logico del archivo
     printf("caracter: %c\n",c); //imprimimos el contenido de la variable c
     int v1; //guardamos el dato que se va a leer devuelta, camina 1 posicion en el b
     fread(&v1, sizeof(int), 1, arch);
@@ -23,7 +23,7 @@ int main()
     float v2;
     fread(&v2, sizeof(float), 1, arch);
     printf("float: %0.2f\n",v2);
-    fclose(arch);//liberamos el archivo porque no necesitamos trabajar m·s o procesado por otro programa
+    fclose(arch);//liberamos el archivo porque no necesitamos trabajar m√°s o procesado por otro programa
     getch();
     return 0;
 }
