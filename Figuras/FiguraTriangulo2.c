@@ -11,7 +11,7 @@ int main() {
     for (int i = 1; i <= pisos; i++)
     {
 
-        // 1. Imprimir espacios a la izquierda para alinear el triángulo
+        // 1. Imprimir espacios a la izquierda para alinear el triÃ¡ngulo
         for (int j = 1; j <= pisos - i; j++)
         {
             printf(" ");
@@ -28,7 +28,7 @@ int main() {
             }
         }
 
-        // Salto de línea al terminar cada piso
+        // Salto de lÃ­nea al terminar cada piso
         printf("\n");
     }
 
