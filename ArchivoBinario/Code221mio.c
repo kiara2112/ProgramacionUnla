@@ -1,4 +1,4 @@
-//Abrir el archivo "arhivo2.dat" creado en el programa anterior y proceder a su lectura e impresión.
+//Abrir el archivo "arhivo2.dat" creado en el programa anterior y proceder a su lectura e impresiÃ³n.
 
 #include<stdio.h>
 #include<conio.h>
