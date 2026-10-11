@@ -2,7 +2,7 @@
 //1 - Crear un vector con 10 enteros y grabar dicho vector en un archivo binario llamado "archivo7.dat"
 //2 - Recuperar todos los datos del archivo creado anteriormente y almacenar los datos en un vector.
 
-//cuando necesitamos grabar o leer un vector en una sola llamada a la función fread o fwrite indicamos en dicho tercer parámetro el tamaño del vector.
+//cuando necesitamos grabar o leer un vector en una sola llamada a la funciÃ³n fread o fwrite indicamos en dicho tercer parÃ¡metro el tamaÃ±o del vector.
 
 #include<stdio.h>
 #include<conio.h>
@@ -17,7 +17,7 @@ void grabarVector()
     if (arch==NULL)
         exit(1);
     int vec[TAM]={10,20,30,40,50,60,70,80,90,100};
-    fwrite(vec, sizeof(int), TAM, arch);//a función fwrite nos facilita la grabación de un vector en forma completo, en tamaño en vez de 1 ponemos 10
+    fwrite(vec, sizeof(int), TAM, arch);//a funciÃ³n fwrite nos facilita la grabaciÃ³n de un vector en forma completo, en tamaÃ±o en vez de 1 ponemos 10
     fclose(arch);
 }
 
