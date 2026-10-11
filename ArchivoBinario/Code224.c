@@ -1,21 +1,21 @@
 //Confeccionar un programa con tres funciones:
-//1 - Creación de un archivo binario llamado "archivo4.dat" y almacenar 3 enteros. Seguidamente cerrar el archivo
+//1 - CreaciÃ³n de un archivo binario llamado "archivo4.dat" y almacenar 3 enteros. Seguidamente cerrar el archivo
 //2 - Abrir nuevamente el archivo pero en modo "r+b" y modificar el segundo entero almacenado en el archivo.
 //3 - Finalmente abrir el archivo para lectura y mostrar todos sus datos.
 
 
 
-//"rb" Sólo lectura. El archivo debe existir previamente. Si no existe, fopen retorna NULL.
+//"rb" SÃ³lo lectura. El archivo debe existir previamente. Si no existe, fopen retorna NULL.
 
-//"wb" Sólo escritura. Si el archivo no existía, lo crea. Si existía, destruye su contenido y lo abre vacío.
+//"wb" SÃ³lo escritura. Si el archivo no existÃ­a, lo crea. Si existÃ­a, destruye su contenido y lo abre vacÃ­o.
 
-//"ab" Sólo escritura, pero en modo append (o sea: añadir): Los datos que se graban, lo hacen al final. Crea el archivo si no existía, y no destruye su contenido si ya existía.
+//"ab" SÃ³lo escritura, pero en modo append (o sea: aÃ±adir): Los datos que se graban, lo hacen al final. Crea el archivo si no existÃ­a, y no destruye su contenido si ya existÃ­a.
 
 //"r+b" Permite lectura y escritura. El archivo debe existir previamente.
 
-//"w+b" Permite escritura y lectura. Crea el archivo si no existía, pero destruye su contenido si ya existía, y lo abre vacío.
+//"w+b" Permite escritura y lectura. Crea el archivo si no existÃ­a, pero destruye su contenido si ya existÃ­a, y lo abre vacÃ­o.
 
-//"a+b" Permite añadir al final, en modo lectura – escritura. Crea el archivo si no existía. No destruye su contenido si ya existía.
+//"a+b" Permite aÃ±adir al final, en modo lectura â€“ escritura. Crea el archivo si no existÃ­a. No destruye su contenido si ya existÃ­a.
 
 
 #include<stdio.h>
