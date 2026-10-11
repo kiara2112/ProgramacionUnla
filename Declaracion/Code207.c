@@ -1,6 +1,5 @@
-
-
-
+//definimos una unión para acceder a dos enteros que representan a un punto en el plano mediante
+//un registro con dos campos y mediante un vector de dos enteros.
 #include<stdio.h>
 #include<conio.h>
 
