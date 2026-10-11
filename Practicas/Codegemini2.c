@@ -1,6 +1,6 @@
-//Mediante un ciclo `do-while` o `while`, solicitar al usuario el ingreso de la cantidad de unidades vendidas en cada transacciÛn. La carga finaliza cuando se ingresa la cantidad `0`.
-//Contar cu·ntas ventas fueron superiores a 50 unidades.
-//Acumular el total general de unidades vendidas en el dÌa.
+//Mediante un ciclo `do-while` o `while`, solicitar al usuario el ingreso de la cantidad de unidades vendidas en cada transacci√≥n. La carga finaliza cuando se ingresa la cantidad `0`.
+//Contar cu√°ntas ventas fueron superiores a 50 unidades.
+//Acumular el total general de unidades vendidas en el d√≠a.
 //Al finalizar la carga, mostrar el total de unidades vendidas y el promedio de unidades por venta (validando no dividir por cero si no se ingresaron ventas)
 
 #include<stdio.h>
