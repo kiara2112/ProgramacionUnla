@@ -1,8 +1,8 @@
-//Registrar las ventas realizadas en un local durante los 6 dÌas de la semana (Lunes a S·bado) utilizando un vector de 6 elementos de tipo `float`.
-//Implementar la funciÛn `void cargarSueldosOVentas(float ventas)` para ingresar el monto recaudado cada dÌa.
-//Implementar la funciÛn `float calcularTotal(float ventas)` que sume y devuelva el total recaudado en la semana.
-//Implementar la funciÛn `void evaluarRendimiento(float ventas, float promedio)` que cuente e imprima cu·ntos dÌas se superÛ el promedio diario de ventas.
-//En la funciÛn `main`, coordinar las llamadas a las tres funciones
+//Registrar las ventas realizadas en un local durante los 6 d√≠as de la semana (Lunes a S√°bado) utilizando un vector de 6 elementos de tipo `float`.
+//Implementar la funci√≥n `void cargarSueldosOVentas(float ventas)` para ingresar el monto recaudado cada d√≠a.
+//Implementar la funci√≥n `float calcularTotal(float ventas)` que sume y devuelva el total recaudado en la semana.
+//Implementar la funci√≥n `void evaluarRendimiento(float ventas, float promedio)` que cuente e imprima cu√°ntos d√≠as se super√≥ el promedio diario de ventas.
+//En la funci√≥n `main`, coordinar las llamadas a las tres funciones
 
 #include<stdio.h>
 #include<conio.h>
