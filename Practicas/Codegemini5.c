@@ -1,8 +1,8 @@
 //Problema: Se cuenta con las unidades vendidas de 5 productos en un vector de enteros int cantidades30
-//Crear una funci髇 para cargar el vector de cantidades
-//Crear una funci髇 que encuentre el producto con la mayor cantidad vendida e imprima el valor y el n鷐ero de producto (su posici髇 $+ 1$)
-//Crear una funci髇 ordenarMayorAMenor que ordene el vector de cantidades en forma descendente (de mayor a menor) utilizando el m閠odo de la burbuja (con dos ciclos for anidados)
-//Mostrar el vector antes y despu閟 de ordenarlo
+//Crear una funci贸n para cargar el vector de cantidades
+//Crear una funci贸n que encuentre el producto con la mayor cantidad vendida e imprima el valor y el n煤mero de producto (su posici贸n $+ 1$)
+//Crear una funci贸n ordenarMayorAMenor que ordene el vector de cantidades en forma descendente (de mayor a menor) utilizando el m茅todo de la burbuja (con dos ciclos for anidados)
+//Mostrar el vector antes y despu茅s de ordenarlo
 
 #include<stdio.h>
 #include<conio.h>
