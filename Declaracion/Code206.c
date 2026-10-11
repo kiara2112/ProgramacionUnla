@@ -1,4 +1,4 @@
-//Declarar una unión con tres atributos, uno de tipo int, otro de tipo char y finalmente otro de tipo float.
+//Declarar una uniÃ³n con tres atributos, uno de tipo int, otro de tipo char y finalmente otro de tipo float.
 //Definir una variable y guardar en distintos momentos del programa valores para dichos atributos.
 
 #include<stdio.h>
