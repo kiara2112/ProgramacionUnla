@@ -1,4 +1,4 @@
-//Abrir el archivo "datos1.txt" en modo lectura, leer todas sus líneas y mostrar su contenido por pantalla utilizando la función fgets
+//Abrir el archivo "datos1.txt" en modo lectura, leer todas sus lÃ­neas y mostrar su contenido por pantalla utilizando la funciÃ³n fgets
 
 
 
