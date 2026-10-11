@@ -1,10 +1,10 @@
 //Confeccionar un programa con dos funciones:
-//1 - Creaci髇 de un archivo binario llamado "archivo5.dat" y almacenar valores enteros ingresados por teclado.
+//1 - Creaci贸n de un archivo binario llamado "archivo5.dat" y almacenar valores enteros ingresados por teclado.
 //2 - Imprimir el archivo en forma completa.
 
 
-//int feof([nombre l骻ico del archivo])
-//permite luego de la ejecuci髇 de la funci髇 fread verificar si se ha llegado a fin de archivo (0 si no es fin de archivo y un valor distinto a 0 si se ha llegado al final)
+//int feof([nombre l贸gico del archivo])
+//permite luego de la ejecuci贸n de la funci贸n fread verificar si se ha llegado a fin de archivo (0 si no es fin de archivo y un valor distinto a 0 si se ha llegado al final)
 
 
 #include<stdio.h>
