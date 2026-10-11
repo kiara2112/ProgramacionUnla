@@ -1,5 +1,5 @@
 //Crear y cargar un vector de 10 elementos con valores aleatorios entre 1 y 100.
-//Ingresar por teclado un entero y mostrar un mensaje si el número esta dentro del vector.
+//Ingresar por teclado un entero y mostrar un mensaje si el nÃºmero esta dentro del vector.
 
 #include<stdio.h>
 #include<conio.h>
@@ -16,7 +16,7 @@
 
 #define CANTIDAD 10
 
- //definir una variable de tipo enumeración
+ //definir una variable de tipo enumeraciÃ³n
 // enum operaciones op;
 //int op; //si guardo 0=suma, 1=resta, 2=multiplicacion y 3=division op=2;
 
@@ -25,9 +25,9 @@ enum texiste {NO, SI};//no=0 si=1
 void cargar(int vec[CANTIDAD])
 {
     int f;
-    srand(time(NULL)); //configura e inicializa la semilla generadora basándose en la hora del sistema para que los números cambien en cada ejecución
+    srand(time(NULL)); //configura e inicializa la semilla generadora basÃ¡ndose en la hora del sistema para que los nÃºmeros cambien en cada ejecuciÃ³n
     for(f=0;f<CANTIDAD;f++)
-        vec[f]=rand()%100 + 1; //La función `rand()` genera un entero aleatorio[1]. Al aplicarle el operador resto `% 100`, el resultado siempre estará acotado entre `0` y `99`. y el +1 hace que sea del 1-100
+        vec[f]=rand()%100 + 1; //La funciÃ³n `rand()` genera un entero aleatorio[1]. Al aplicarle el operador resto `% 100`, el resultado siempre estarÃ¡ acotado entre `0` y `99`. y el +1 hace que sea del 1-100
 }
 
 void imprimir(int vec[CANTIDAD])
