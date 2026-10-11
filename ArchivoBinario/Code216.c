@@ -1,4 +1,4 @@
-//Crear un archivo binario y almacenar un caracter, un entero y un float. Identificar en el disco duro el archivo creado y cual es su tamaÒo en bytes.
+//Crear un archivo binario y almacenar un caracter, un entero y un float. Identificar en el disco duro el archivo creado y cual es su tama√±o en bytes.
 
 //guardar en memoria secundaria(archivo)
 //se ubican uno a continuacion de otro
@@ -18,13 +18,13 @@ int main()
         exit(1);
 
     char letra='A';
-    fwrite(&letra, sizeof(char), 1, arch); //fwrite, pasamos la direccion a grabar el archivo(&letra), la cantidad de bits (sizeof(char)recupera el tamaÒo solo), guardamos solo 1 variable (mostramos con 1, sin es un vector este cambiaria), nombre logico del archivo (arch)
+    fwrite(&letra, sizeof(char), 1, arch); //fwrite, pasamos la direccion a grabar el archivo(&letra), la cantidad de bits (sizeof(char)recupera el tama√±o solo), guardamos solo 1 variable (mostramos con 1, sin es un vector este cambiaria), nombre logico del archivo (arch)
     int valor1=12;
     fwrite(&valor1, sizeof(int), 1, arch); //se graba a continuacion este
     float valor2=5.25;
     fwrite(&valor2, sizeof(float), 1, arch);
     //char (1 byte), un int (4 bytes) y un float (4 bytes) el archivo DAT muestra 9 bitys al final
-    fclose(arch); //liberamos el archivo porque no necesitamos trabajar m·s o procesado por otro programa
+    fclose(arch); //liberamos el archivo porque no necesitamos trabajar m√°s o procesado por otro programa
 
     printf("Se creo un archivo binario que almacena un char, un int y un float.");
 
