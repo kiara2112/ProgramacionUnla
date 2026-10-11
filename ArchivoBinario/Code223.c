@@ -1,6 +1,6 @@
 //Confeccionar un programa con tres funciones:
-//1 - Creación de un archivo binario llamado "archivo3.dat" y almacenar 3 enteros. Seguidamente cerrar el archivo
-//2 - Abrir nuevamente el archivo pero en modo de añadir y almacenar 1 float.
+//1 - CreaciÃ³n de un archivo binario llamado "archivo3.dat" y almacenar 3 enteros. Seguidamente cerrar el archivo
+//2 - Abrir nuevamente el archivo pero en modo de aÃ±adir y almacenar 1 float.
 //3 - Finalmente abrir el archivo para lectura y mostrar todos sus datos.
 
 
@@ -26,7 +26,7 @@ void crear() //creamos el archivo
 void agregar() //abrimos devuelta el archivo
 {
     FILE *arch;
-    arch=fopen("archivo3.dat","ab");  //append binary (Añadir (o anexar) binario)
+    arch=fopen("archivo3.dat","ab");  //append binary (AÃ±adir (o anexar) binario)
     if (arch==NULL) //si no se pudo abrir, termina la ejecucion del programa
         exit(1);
     float f1=5.45;
