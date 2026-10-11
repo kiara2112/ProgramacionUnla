@@ -1,4 +1,4 @@
-//Abrir el archivo "datos1.txt" en modo lectura, leer todas sus líneas y mostrar su contenido por pantalla.
+//Abrir el archivo "datos1.txt" en modo lectura, leer todas sus lÃ­neas y mostrar su contenido por pantalla.
 
 #include<stdio.h>
 #include<conio.h>
@@ -6,7 +6,7 @@
 
 void main()
 {
-    FILE *arch=fopen("datos1.txt","rt"); //"rt" Sólo lectura. El archivo debe existir previamente. Si no existe, fopen retorna NULL.
+    FILE *arch=fopen("datos1.txt","rt"); //"rt" SÃ³lo lectura. El archivo debe existir previamente. Si no existe, fopen retorna NULL.
     if (arch==NULL)
         exit(1);
     char caracter = fgetc(arch); //leemos caracter por caracter con fgetc
