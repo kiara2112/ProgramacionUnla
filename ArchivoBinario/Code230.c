@@ -3,8 +3,8 @@
 //1 - Crear un archivo binario llamado "productos.dat"
 //2 - Carga de registros de tipo tproducto.
 //3 - Listado completo de productos.
-//4 - Consulta de un producto por su código.
-//5 - Modificación del precio de un producto.
+//4 - Consulta de un producto por su cÃ³digo.
+//5 - ModificaciÃ³n del precio de un producto.
 
 
 
@@ -119,7 +119,7 @@ void modificacion()
            printf("%i %s %0.2f\n", producto.codigo, producto.descripcion, producto.precio); //mostramos los que ya tenemos
            printf("Ingrese nuevo precio:");
            scanf("%f",&producto.precio); //ingresamos el precio
-           int pos=ftell(arch)-sizeof(tproducto); //pos  ftell(arch) (la posicion actual) -sizeof(tproducto) y le restamos el tamaño del registro, ya que abajo ya habiamos avanzado y no nos encontramos donde se leyo el registro
+           int pos=ftell(arch)-sizeof(tproducto); //pos  ftell(arch) (la posicion actual) -sizeof(tproducto) y le restamos el tamaÃ±o del registro, ya que abajo ya habiamos avanzado y no nos encontramos donde se leyo el registro
            fseek(arch,pos,SEEK_SET);
            fwrite(&producto, sizeof(tproducto), 1, arch); //intercambiamos el precio
            printf("Se modifico el precio para dicho producto.\n");
