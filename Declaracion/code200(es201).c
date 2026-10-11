@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-//variable que nunca ser· cambiado(si intentamos cambiarlo, es imposible)
+//variable que nunca ser√° cambiado(si intentamos cambiarlo, es imposible)
 //si intentamos hacerlo, nos va salir un error y nos no va a dejar ejecutar
 
 struct persona {
