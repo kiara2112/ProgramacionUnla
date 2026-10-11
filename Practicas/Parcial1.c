@@ -6,9 +6,9 @@
 //5- Mostrar matriz
 //6- Precarga de datos
 //0- Fin
-//Los datos a cargar ser·n los siguientes: Partido, Jugador, Goles
-//Hasta un m·ximo de 20 (20 es el m·ximo, no el total a cargar). Los datos a mostrar son en tres columnas
-//La matriz deber· tener en las columnas los jugadores, en las filas los equipos y en dato deben ser los goles (totalizados si un jugador hizo mas de un gol en el partido), deber· totalizarse por jugador y por Partido
+//Los datos a cargar ser√°n los siguientes: Partido, Jugador, Goles
+//Hasta un m√°ximo de 20 (20 es el m√°ximo, no el total a cargar). Los datos a mostrar son en tres columnas
+//La matriz deber√° tener en las columnas los jugadores, en las filas los equipos y en dato deben ser los goles (totalizados si un jugador hizo mas de un gol en el partido), deber√° totalizarse por jugador y por Partido
 //Se recuerda que no se debe agregar nada que no fuera pedido en el enunciado.
 //La carga de datos termina al cargar O en el partido. Los equipos tienen numero de 1 a 4, lo mismo que los jugadores.
 
