@@ -1,8 +1,8 @@
 //Confeccionar un programa con dos funciones:
-//1 - Creaci髇 de un archivo binario llamado "archivo6.dat" y grabar 3 enteros, despu閟 de grabar cada dato imprimir la posici髇 del puntero de archivo.
-//2 - Imprimir el archivo en forma completa, mostrar adem醩 la posici髇 del puntero de archivo despu閟 de leer.
+//1 - Creaci贸n de un archivo binario llamado "archivo6.dat" y grabar 3 enteros, despu茅s de grabar cada dato imprimir la posici贸n del puntero de archivo.
+//2 - Imprimir el archivo en forma completa, mostrar adem谩s la posici贸n del puntero de archivo despu茅s de leer.
 
-//tfell: retorna un valor entero que representa la posici髇 exacta en bytes en la que se encuentra actualmente ubicado el puntero del archivo
+//tfell: retorna un valor entero que representa la posici贸n exacta en bytes en la que se encuentra actualmente ubicado el puntero del archivo
 
 #include<stdio.h>
 #include<conio.h>
@@ -16,7 +16,7 @@ void crear()
         exit(1);
     int valor1=10;
     fwrite(&valor1, sizeof(int), 1, arch);
-    int pos=ftell(arch);//int ftell([nombre l骻ico del archivo]),  podemos desplazar el puntero de archivo a cualquier byte del mismo(
+    int pos=ftell(arch);//int ftell([nombre l贸gico del archivo]),  podemos desplazar el puntero de archivo a cualquier byte del mismo(
     printf("Posicion del puntero de archivo luego grabar un entero:%i\n", pos);
     int valor2=20;
     fwrite(&valor2, sizeof(int), 1, arch);
@@ -41,7 +41,7 @@ void imprimir()
     fread(&x, sizeof(int), 1, arch);
     while(!feof(arch))
     {
-        pos=ftell(arch);//el puntero de archivo avanza tantos bytes como el tama駉 del tipo de dato que pasamos
+        pos=ftell(arch);//el puntero de archivo avanza tantos bytes como el tama帽o del tipo de dato que pasamos
         printf("dato leido %i y posicion del puntero de archivo %i\n",x,pos);
         fread(&x, sizeof(int), 1, arch);
     }
