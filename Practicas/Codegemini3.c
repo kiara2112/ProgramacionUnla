@@ -1,7 +1,7 @@
 //Se ingresa por teclado el nombre de un producto cargado por el cliente y se debe comparar contra la base del local.
-//1. Pedir el ingreso del nombre de dos productos (máximo 30 caracteres) mediante `gets().
-//2. Utilizando `strlen()`, indicar cuál de los dos nombres de producto es más largo (tiene más caracteres).
-//3. Utilizando `strcmp()`, verificar e informar si los dos productos ingresados son exactamente iguales o cuál de los dos es mayor alfabéticamente.
+//1. Pedir el ingreso del nombre de dos productos (mÃ¡ximo 30 caracteres) mediante `gets().
+//2. Utilizando `strlen()`, indicar cuÃ¡l de los dos nombres de producto es mÃ¡s largo (tiene mÃ¡s caracteres).
+//3. Utilizando `strcmp()`, verificar e informar si los dos productos ingresados son exactamente iguales o cuÃ¡l de los dos es mayor alfabÃ©ticamente.
 //4. Copiar mediante `strcpy()` el nombre del producto de mayor longitud a una tercera variable `productoDestacado` e imprimirlo
 
 void largo (char producto1[30], char producto2[30])
