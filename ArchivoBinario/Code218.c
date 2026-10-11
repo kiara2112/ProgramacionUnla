@@ -1,13 +1,13 @@
 
-//Abrir el archivo binario que se creó en conceptos anteriores: "archivo1.dat" y leer solo los bytes donde se almacena el valor float.
+//Abrir el archivo binario que se creÃ³ en conceptos anteriores: "archivo1.dat" y leer solo los bytes donde se almacena el valor float.
 //Recordemos que el archivo almacena un caracter, un entero y un float en ese orden.
 
 
-//nos permite desplazar el puntero de archivo a cualquier posición previo a la lectura fseek (fseek([nombre lógico del archivo], [cantidad de bytes a desplazarse], [ubicación desde donde comenzar a desplazarse]))
+//nos permite desplazar el puntero de archivo a cualquier posiciÃ³n previo a la lectura fseek (fseek([nombre lÃ³gico del archivo], [cantidad de bytes a desplazarse], [ubicaciÃ³n desde donde comenzar a desplazarse]))
 
 
 //SEEK_SET Reposicionar comenzando desde el principio del archivo (es lo mismo poner un 0)
-//SEEK_CUR Reposicionar comenzando desde la posición actual del puntero de archivo (es lo mismo poner un 1)
+//SEEK_CUR Reposicionar comenzando desde la posiciÃ³n actual del puntero de archivo (es lo mismo poner un 1)
 //SEEK_END Reposicionar comenzando desde el final del archivo (es lo mismo poner un 2)
 
 #include<stdio.h>
