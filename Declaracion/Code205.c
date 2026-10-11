@@ -1,5 +1,5 @@
-//Confeccionar una funci髇 que retorne la suma, resta, multiplicaci髇 o divisi髇 de dos enteros,
-//le pasamos como par醡etro los dos valores y un tipo de dato enumerado que indique que operaci髇 efectuar.
+//Confeccionar una funci贸n que retorne la suma, resta, multiplicaci贸n o divisi贸n de dos enteros,
+//le pasamos como par谩metro los dos valores y un tipo de dato enumerado que indique que operaci贸n efectuar.
 
 #include<stdio.h>
 #include<conio.h>
