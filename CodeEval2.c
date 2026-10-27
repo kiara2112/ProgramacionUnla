@@ -3,8 +3,14 @@
 #include <string.h>
 
 
-#DEFINE FILA 30
-#DEFINE COLUM 40
+#define FILA 30
+#define COLUM 40
+
+struct pais
+{
+    char ciudad[FILA][COLUM];
+    int ventas;
+};
 
 
 void borrarArch()
@@ -19,20 +25,25 @@ void borrarArch()
     fclose(arch);
 }
 
-int altas(char ciudad[FILA][COLUM], int ventas[FILA], int x)
+int altas(int x)
 {
-    char ciu[40];
+    char ciu[FILA];
+    char ciudad[FILA][COLUM];
+    int ventas[FILA];
+    int inicio=x;
 
     printf("ingresar ciudad(FIN 00)");
-    gets(ciu[x]);
+    gets(ciu);
 
-    while(strcmp(ciu, "00")!=0)
+    while(strcmp(pais.ciudad, "00")!=0)
     {
         strcpy(ciudad[x], ciu);
         printf ("ingresar ventas:");
-        scanf("i", &ventas[x]);
+        scanf("%i", &ventas[x]);
 
         x++;
+
+        fflush(stdin);
 
         printf("ingresar ciudad(FIN 00)");
         gets(ciu[x]);
@@ -41,42 +52,91 @@ int altas(char ciudad[FILA][COLUM], int ventas[FILA], int x)
 
     FILE*arch;
 
-    arch=fopen(ArchCiudad.dat,"ab")
+    arch=fopen("ArchCiudad.dat","ab");
 
     if(arch==NULL)
     exit(1);
 
-    fwrite(ciudad[x], sizeof(int),x, arch);
-    fwrite(&ventas[x], sizeof(int),x, arch);
+    fwrite(ciudad, sizeof(char),(x-inicio)*COLUM, arch);
+    fwrite(ventas, sizeof(int),(x-inicio), arch);
 
     fclose(arch);
 
     return x;
 }
 
-void listCarga(char ciudad[FILA][COLUM], int ventas[FILA], int x)
+void listCarga(int x)
 {
+    FILE*arch;
 
-    printf("ciudad\t ventas\n")
+    arch=fopen("ArchCiudad.dat","r+b");
 
-    for (f=0; f<x; f++)
-    {
-        printf("%s %i", ciudad[f], ventas[f])
-    }
+    if(arch==NULL)
+    exit(1);
+
+
+    fread(ciudad, sizeof(pais), x, arch);
 
     fclose(arch);
+
+    printf("ciudad\t ventas\n");
+
+    for (int f=0; f<x; f++)
+    {
+        printf("%s %i\n", pais., ventas[f]);
+    }
 }
 
 void ordenVentas(int x)
 {
+    FILE*arch;
 
+    arch=fopen("ArchCiudad.dat","r+b");
 
+    if(arch==NULL)
+    exit(1);
 
+    char ciudad[FILA][COLUM];
+    int ventas[FILA];
+    fread(ciu, sizeof(struct pais),x, arch);
 
+    fclose(arch);
 
+    int aux1, f, k;
+    char aux2[COLUM];
 
+    for (f=0; f<x; f++)
+    {
+        fflush(stdin);
+        strcat(auxCiudad[f], ciudad[f]);
+        auxVentas[f]=ventas[f];
+    }
 
+    for(k=0; k<x-1; k++)
+    {
+        for(f=0; f<x-1; f++)
+        {
+           if(auxVentas[f]>auxVentas[f+1])
+           {
+              aux1=auxVentas[f];
+              auxVentas[f]=auxVentas[f+1];
+              auxVentas[f+1]=aux1;
 
+              fflush(stdin);
+
+              strcat(aux2,auxCiudad[f]);
+              strcat(auxCiudad[f],auxCiudad[f+1]);
+              strcat(auxCiudad[f+1], aux2);
+
+           }
+        }
+    }
+
+    printf("ciudad\tventas\t\n");
+    for(f=0; f<x; f++)
+    {
+        printf("%s %i\n", auxCiudad[f], auxVentas[f]);
+    }
 
 }
 
@@ -90,36 +150,39 @@ void corteControl()
 
 }
 
-int precarga()
+int precarga(int x)
 {
 
-    char ciuPre[8]={"Buenos Aires",
-                 "Rosario",
-                 "Cordoba",
-                 "La plata",
-                 "Mar del plata",
-                 "Cordoba",
-                 "Buenos Aires",
-                 "Rosario"}
-
-    int ventasPre[8] = {400, 500, 300, 800, 150, 450, 750, 100};
+    struct pais ciuPre[8] = {
+        {"Buenos Aires", 400},
+        {"Rosario", 500},
+        {"Cordoba", 300},
+        {"La plata", 800},
+        {"Mar del plata", 150},
+        {"Cordoba", 450},
+        {"Buenos Aires", 750},
+        {"Rosario", 100}
+    };
 
     x=8;
 
-    FILE*arch=fopen(archCiudad.dat, "wb")
+    FILE*arch=fopen("archCiudad.dat", "wb");
 
     if(arch==NULL)
     exit(1);
 
-    fwrite(&ciudad, sizeof(int),x, arch);
-    fwrite(&ventas, sizeof(int),x, arch);
+    fwrite(ciuPre, sizeof(struct ciudad), x, arch);
+
+    fclose(arch);
+    return x;
 }
 
 int main ()
 {
-    ciudad[FILA][COLUM];
-    ventas[FILA];
-    x=0;
+    char ciudad[FILA][COLUM];
+    int ventas[FILA];
+    int x=0;
+    int menu;
 
     do{
     printf("1-Borrar Archivo\n");
@@ -127,31 +190,27 @@ int main ()
     printf("3-Lista de como se cargo\n");
     printf("4-Lista ordenado por ventas\n");
     printf("5-Lista con corte de control por ciudad\n");
-    printf("6-Precarga");
-    printf("0-FIN");
+    printf("6-Precarga\n");
+    printf("0-FIN\n");
+
+    scanf("%i", &menu);
 
     switch(menu){
     case 1: borrarArch();
             break;
-
-    case 2: x=(ciudad, ventas, x);
+    case 2: x=altas(x);
             break;
-
-    case 3: listCarga(ciudad, ventas, x);
+    case 3: listCarga(x);
             break;
-
-    case 4: break;
-    case 5: break;
-
-    case 6: x=precarga(ciudad)
+    case 4: ordenVentas(x);
             break;
-
+    case 5:
+            break;
+    case 6: x=precarga(x);
+            break;
     }
-
-    }while(menu==0);
+    }while(menu!=0);
 
  getchar();
  return 0;
-
 }
-
